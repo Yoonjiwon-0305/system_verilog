@@ -21,14 +21,15 @@ endclass  //transaction
 class generator;  //SW // generarte => 반복하기 위해 사용// verilog의 문법 그대로 가져옴 generate
 
     transaction tr; // tr이라는 이름으로 transaction 생성 // 상속 아님
-    virtual adder_interface adder_interf_gen;  // port 생성
+    virtual adder_interface adder_interf_gen;  // port 생성 // 소프트웨어와 하드웨어를 연결하기 위한 virtual
 
     function new(virtual adder_interface adder_interf_ext);  // 
         // 클래스에서 제공하는 생성자
-        adder_interf_gen = adder_interf_ext;  // 연결해주는 동작  // 내부 이름 = 외부 이름
+        this.adder_interf_gen = adder_interf_ext;  // 연결해주는 동작  // 내부 이름 = 외부 이름
+        tr = new();// new()=> 생성자
     endfunction
 
-    task run(); // task  시간 관리 가능 //funtion 은 시간 관리 안된다
+    task run(); // task  시간 관리 가능 //funtion 은 시간 관리 안된다// 스레드,프로세스와 같음 
         tr.randomize(); // 이때 랜덤 값 생성 // transaction에서 rand라고 적혀진 애들만 random값이 생성된다
         tr.mode = 0;
         adder_interf_gen.a = tr.a;
@@ -47,9 +48,11 @@ module tb_adder_sv ();  //HW
     // interface와 충돌 하기 때문에 삭제 //logic c, mode;
 
 
-    adder_interface adder_interf;  // 실체화
+    adder_interface adder_interf ();
+    // class generator 를 선언 // 실체화 
+    // gen : generator 객체를 관리하기 위한 handler
 
-    generator gen;  // generator를선언
+    generator gen;  // generator를선언 // handler에 이름을 붙인거임 
 
     adder dut (
         .a   (adder_interf.a),
@@ -62,8 +65,10 @@ module tb_adder_sv ();  //HW
     initial begin
         //class generater 생성
         //generator class의 function new가 실행됨
-        gen = new(adder_interf);// 동적할당
-        gen.run();
+        gen = new(adder_interf);  // 동적할당 // handler를 new를 부름으로써 실제로 할당한것임// adder_interf를 인자로 넘겨준것 
+        gen.run(); // 실제로 행동하는 부분
+
+        $stop;
     end
 
 endmodule
