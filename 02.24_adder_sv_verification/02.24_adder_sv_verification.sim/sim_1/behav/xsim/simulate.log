@@ -1,0 +1,461 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+             0.000ns : [gen] a = 00000000, b = f1167e09, mode = 1, sum = xxxxxxxx,carry = x
+             0.000ns : [drv] a = 00000000, b = f1167e09, mode = 1, sum = xxxxxxxx,carry = x
+            10.000ns : [mon] a = 00000000, b = f1167e09, mode = 1, sum = 0ee981f7,carry = 1
+            10.000ns : [scb] a = 00000000, b = f1167e09, mode = 1, sum = 0ee981f7,carry = 1
+[Pass] : a =          0, b = 4044783113, mode = 1, sum =  250184183,carry = 1
+            10.000ns : [gen] a = 000003ff, b = ee958189, mode = 1, sum = xxxxxxxx,carry = x
+            10.000ns : [drv] a = 000003ff, b = ee958189, mode = 1, sum = xxxxxxxx,carry = x
+            20.000ns : [mon] a = 000003ff, b = ee958189, mode = 1, sum = 116a8276,carry = 1
+            20.000ns : [scb] a = 000003ff, b = ee958189, mode = 1, sum = 116a8276,carry = 1
+[Pass] : a =       1023, b = 4002775433, mode = 1, sum =  292192886,carry = 1
+            20.000ns : [gen] a = 0000000f, b = 24e74674, mode = 1, sum = xxxxxxxx,carry = x
+            20.000ns : [drv] a = 0000000f, b = 24e74674, mode = 1, sum = xxxxxxxx,carry = x
+            30.000ns : [mon] a = 0000000f, b = 24e74674, mode = 1, sum = db18b99b,carry = 1
+            30.000ns : [scb] a = 0000000f, b = 24e74674, mode = 1, sum = db18b99b,carry = 1
+[Pass] : a =         15, b =  619136628, mode = 1, sum = 3675830683,carry = 1
+            30.000ns : [gen] a = 000003ff, b = fa7ff961, mode = 0, sum = xxxxxxxx,carry = x
+            30.000ns : [drv] a = 000003ff, b = fa7ff961, mode = 0, sum = xxxxxxxx,carry = x
+            40.000ns : [mon] a = 000003ff, b = fa7ff961, mode = 0, sum = fa7ffd60,carry = 0
+            40.000ns : [scb] a = 000003ff, b = fa7ff961, mode = 0, sum = fa7ffd60,carry = 0
+[Pass] : a =       1023, b = 4202690913, mode = 0, sum = 4202691936,carry = 0
+            40.000ns : [gen] a = 000000ff, b = 1a860622, mode = 1, sum = xxxxxxxx,carry = x
+            40.000ns : [drv] a = 000000ff, b = 1a860622, mode = 1, sum = xxxxxxxx,carry = x
+            50.000ns : [mon] a = 000000ff, b = 1a860622, mode = 1, sum = e579fadd,carry = 1
+            50.000ns : [scb] a = 000000ff, b = 1a860622, mode = 1, sum = e579fadd,carry = 1
+[Pass] : a =        255, b =  444991010, mode = 1, sum = 3849976541,carry = 1
+            50.000ns : [gen] a = 0000001f, b = 072d974e, mode = 0, sum = xxxxxxxx,carry = x
+            50.000ns : [drv] a = 0000001f, b = 072d974e, mode = 0, sum = xxxxxxxx,carry = x
+            60.000ns : [mon] a = 0000001f, b = 072d974e, mode = 0, sum = 072d976d,carry = 0
+            60.000ns : [scb] a = 0000001f, b = 072d974e, mode = 0, sum = 072d976d,carry = 0
+[Pass] : a =         31, b =  120428366, mode = 0, sum =  120428397,carry = 0
+            60.000ns : [gen] a = 000003ff, b = f1099f6c, mode = 1, sum = xxxxxxxx,carry = x
+            60.000ns : [drv] a = 000003ff, b = f1099f6c, mode = 1, sum = xxxxxxxx,carry = x
+            70.000ns : [mon] a = 000003ff, b = f1099f6c, mode = 1, sum = 0ef66493,carry = 1
+            70.000ns : [scb] a = 000003ff, b = f1099f6c, mode = 1, sum = 0ef66493,carry = 1
+[Pass] : a =       1023, b = 4043939692, mode = 1, sum =  251028627,carry = 1
+            70.000ns : [gen] a = 0000003f, b = ad56e2da, mode = 1, sum = xxxxxxxx,carry = x
+            70.000ns : [drv] a = 0000003f, b = ad56e2da, mode = 1, sum = xxxxxxxx,carry = x
+            80.000ns : [mon] a = 0000003f, b = ad56e2da, mode = 1, sum = 52a91d65,carry = 1
+            80.000ns : [scb] a = 0000003f, b = ad56e2da, mode = 1, sum = 52a91d65,carry = 1
+[Pass] : a =         63, b = 2908152538, mode = 1, sum = 1386814821,carry = 1
+            80.000ns : [gen] a = 00000000, b = dcb9d2de, mode = 0, sum = xxxxxxxx,carry = x
+            80.000ns : [drv] a = 00000000, b = dcb9d2de, mode = 0, sum = xxxxxxxx,carry = x
+            90.000ns : [mon] a = 00000000, b = dcb9d2de, mode = 0, sum = dcb9d2de,carry = 0
+            90.000ns : [scb] a = 00000000, b = dcb9d2de, mode = 0, sum = dcb9d2de,carry = 0
+[Pass] : a =          0, b = 3703165662, mode = 0, sum = 3703165662,carry = 0
+            90.000ns : [gen] a = 0000003f, b = a3f8561f, mode = 0, sum = xxxxxxxx,carry = x
+            90.000ns : [drv] a = 0000003f, b = a3f8561f, mode = 0, sum = xxxxxxxx,carry = x
+           100.000ns : [mon] a = 0000003f, b = a3f8561f, mode = 0, sum = a3f8565e,carry = 0
+           100.000ns : [scb] a = 0000003f, b = a3f8561f, mode = 0, sum = a3f8565e,carry = 0
+[Pass] : a =         63, b = 2750961183, mode = 0, sum = 2750961246,carry = 0
+           100.000ns : [gen] a = 0000007f, b = 90fa19e7, mode = 1, sum = xxxxxxxx,carry = x
+           100.000ns : [drv] a = 0000007f, b = 90fa19e7, mode = 1, sum = xxxxxxxx,carry = x
+           110.000ns : [mon] a = 0000007f, b = 90fa19e7, mode = 1, sum = 6f05e698,carry = 1
+           110.000ns : [scb] a = 0000007f, b = 90fa19e7, mode = 1, sum = 6f05e698,carry = 1
+[Pass] : a =        127, b = 2432309735, mode = 1, sum = 1862657688,carry = 1
+           110.000ns : [gen] a = 000000ff, b = cbf6e3a3, mode = 0, sum = xxxxxxxx,carry = x
+           110.000ns : [drv] a = 000000ff, b = cbf6e3a3, mode = 0, sum = xxxxxxxx,carry = x
+           120.000ns : [mon] a = 000000ff, b = cbf6e3a3, mode = 0, sum = cbf6e4a2,carry = 0
+           120.000ns : [scb] a = 000000ff, b = cbf6e3a3, mode = 0, sum = cbf6e4a2,carry = 0
+[Pass] : a =        255, b = 3421954979, mode = 0, sum = 3421955234,carry = 0
+           120.000ns : [gen] a = 000003ff, b = de2206c3, mode = 0, sum = xxxxxxxx,carry = x
+           120.000ns : [drv] a = 000003ff, b = de2206c3, mode = 0, sum = xxxxxxxx,carry = x
+           130.000ns : [mon] a = 000003ff, b = de2206c3, mode = 0, sum = de220ac2,carry = 0
+           130.000ns : [scb] a = 000003ff, b = de2206c3, mode = 0, sum = de220ac2,carry = 0
+[Pass] : a =       1023, b = 3726771907, mode = 0, sum = 3726772930,carry = 0
+           130.000ns : [gen] a = 0000001f, b = 1238b99a, mode = 0, sum = xxxxxxxx,carry = x
+           130.000ns : [drv] a = 0000001f, b = 1238b99a, mode = 0, sum = xxxxxxxx,carry = x
+           140.000ns : [mon] a = 0000001f, b = 1238b99a, mode = 0, sum = 1238b9b9,carry = 0
+           140.000ns : [scb] a = 0000001f, b = 1238b99a, mode = 0, sum = 1238b9b9,carry = 0
+[Pass] : a =         31, b =  305707418, mode = 0, sum =  305707449,carry = 0
+           140.000ns : [gen] a = 0000003f, b = ca19b80c, mode = 1, sum = xxxxxxxx,carry = x
+           140.000ns : [drv] a = 0000003f, b = ca19b80c, mode = 1, sum = xxxxxxxx,carry = x
+           150.000ns : [mon] a = 0000003f, b = ca19b80c, mode = 1, sum = 35e64833,carry = 1
+           150.000ns : [scb] a = 0000003f, b = ca19b80c, mode = 1, sum = 35e64833,carry = 1
+[Pass] : a =         63, b = 3390683148, mode = 1, sum =  904284211,carry = 1
+           150.000ns : [gen] a = 000003ff, b = d13e65a9, mode = 0, sum = xxxxxxxx,carry = x
+           150.000ns : [drv] a = 000003ff, b = d13e65a9, mode = 0, sum = xxxxxxxx,carry = x
+           160.000ns : [mon] a = 000003ff, b = d13e65a9, mode = 0, sum = d13e69a8,carry = 0
+           160.000ns : [scb] a = 000003ff, b = d13e65a9, mode = 0, sum = d13e69a8,carry = 0
+[Pass] : a =       1023, b = 3510527401, mode = 0, sum = 3510528424,carry = 0
+           160.000ns : [gen] a = 0000ffff, b = 235520f3, mode = 1, sum = xxxxxxxx,carry = x
+           160.000ns : [drv] a = 0000ffff, b = 235520f3, mode = 1, sum = xxxxxxxx,carry = x
+           170.000ns : [mon] a = 0000ffff, b = 235520f3, mode = 1, sum = dcabdf0c,carry = 1
+           170.000ns : [scb] a = 0000ffff, b = 235520f3, mode = 1, sum = dcabdf0c,carry = 1
+[Pass] : a =      65535, b =  592781555, mode = 1, sum = 3702251276,carry = 1
+           170.000ns : [gen] a = 000003ff, b = 30534386, mode = 1, sum = xxxxxxxx,carry = x
+           170.000ns : [drv] a = 000003ff, b = 30534386, mode = 1, sum = xxxxxxxx,carry = x
+           180.000ns : [mon] a = 000003ff, b = 30534386, mode = 1, sum = cfacc079,carry = 1
+           180.000ns : [scb] a = 000003ff, b = 30534386, mode = 1, sum = cfacc079,carry = 1
+[Pass] : a =       1023, b =  810763142, mode = 1, sum = 3484205177,carry = 1
+           180.000ns : [gen] a = 0000000f, b = 9aa2205e, mode = 0, sum = xxxxxxxx,carry = x
+           180.000ns : [drv] a = 0000000f, b = 9aa2205e, mode = 0, sum = xxxxxxxx,carry = x
+           190.000ns : [mon] a = 0000000f, b = 9aa2205e, mode = 0, sum = 9aa2206d,carry = 0
+           190.000ns : [scb] a = 0000000f, b = 9aa2205e, mode = 0, sum = 9aa2206d,carry = 0
+[Pass] : a =         15, b = 2594316382, mode = 0, sum = 2594316397,carry = 0
+           190.000ns : [gen] a = 0000003f, b = 87a15efa, mode = 0, sum = xxxxxxxx,carry = x
+           190.000ns : [drv] a = 0000003f, b = 87a15efa, mode = 0, sum = xxxxxxxx,carry = x
+           200.000ns : [mon] a = 0000003f, b = 87a15efa, mode = 0, sum = 87a15f39,carry = 0
+           200.000ns : [scb] a = 0000003f, b = 87a15efa, mode = 0, sum = 87a15f39,carry = 0
+[Pass] : a =         63, b = 2275499770, mode = 0, sum = 2275499833,carry = 0
+           200.000ns : [gen] a = 0000000f, b = fe042c45, mode = 0, sum = xxxxxxxx,carry = x
+           200.000ns : [drv] a = 0000000f, b = fe042c45, mode = 0, sum = xxxxxxxx,carry = x
+           210.000ns : [mon] a = 0000000f, b = fe042c45, mode = 0, sum = fe042c54,carry = 0
+           210.000ns : [scb] a = 0000000f, b = fe042c45, mode = 0, sum = fe042c54,carry = 0
+[Pass] : a =         15, b = 4261686341, mode = 0, sum = 4261686356,carry = 0
+           210.000ns : [gen] a = 000003ff, b = eb661b1e, mode = 0, sum = xxxxxxxx,carry = x
+           210.000ns : [drv] a = 000003ff, b = eb661b1e, mode = 0, sum = xxxxxxxx,carry = x
+           220.000ns : [mon] a = 000003ff, b = eb661b1e, mode = 0, sum = eb661f1d,carry = 0
+           220.000ns : [scb] a = 000003ff, b = eb661b1e, mode = 0, sum = eb661f1d,carry = 0
+[Pass] : a =       1023, b = 3949337374, mode = 0, sum = 3949338397,carry = 0
+           220.000ns : [gen] a = 00000000, b = 1281af7d, mode = 0, sum = xxxxxxxx,carry = x
+           220.000ns : [drv] a = 00000000, b = 1281af7d, mode = 0, sum = xxxxxxxx,carry = x
+           230.000ns : [mon] a = 00000000, b = 1281af7d, mode = 0, sum = 1281af7d,carry = 0
+           230.000ns : [scb] a = 00000000, b = 1281af7d, mode = 0, sum = 1281af7d,carry = 0
+[Pass] : a =          0, b =  310488957, mode = 0, sum =  310488957,carry = 0
+           230.000ns : [gen] a = 0000001f, b = e4a6c87a, mode = 0, sum = xxxxxxxx,carry = x
+           230.000ns : [drv] a = 0000001f, b = e4a6c87a, mode = 0, sum = xxxxxxxx,carry = x
+           240.000ns : [mon] a = 0000001f, b = e4a6c87a, mode = 0, sum = e4a6c899,carry = 0
+           240.000ns : [scb] a = 0000001f, b = e4a6c87a, mode = 0, sum = e4a6c899,carry = 0
+[Pass] : a =         31, b = 3836135546, mode = 0, sum = 3836135577,carry = 0
+           240.000ns : [gen] a = 0000001f, b = c3f780a8, mode = 0, sum = xxxxxxxx,carry = x
+           240.000ns : [drv] a = 0000001f, b = c3f780a8, mode = 0, sum = xxxxxxxx,carry = x
+           250.000ns : [mon] a = 0000001f, b = c3f780a8, mode = 0, sum = c3f780c7,carry = 0
+           250.000ns : [scb] a = 0000001f, b = c3f780a8, mode = 0, sum = c3f780c7,carry = 0
+[Pass] : a =         31, b = 3287777448, mode = 0, sum = 3287777479,carry = 0
+           250.000ns : [gen] a = 0000003f, b = 1030c62a, mode = 0, sum = xxxxxxxx,carry = x
+           250.000ns : [drv] a = 0000003f, b = 1030c62a, mode = 0, sum = xxxxxxxx,carry = x
+           260.000ns : [mon] a = 0000003f, b = 1030c62a, mode = 0, sum = 1030c669,carry = 0
+           260.000ns : [scb] a = 0000003f, b = 1030c62a, mode = 0, sum = 1030c669,carry = 0
+[Pass] : a =         63, b =  271631914, mode = 0, sum =  271631977,carry = 0
+           260.000ns : [gen] a = 0000007f, b = 9c0fc1eb, mode = 0, sum = xxxxxxxx,carry = x
+           260.000ns : [drv] a = 0000007f, b = 9c0fc1eb, mode = 0, sum = xxxxxxxx,carry = x
+           270.000ns : [mon] a = 0000007f, b = 9c0fc1eb, mode = 0, sum = 9c0fc26a,carry = 0
+           270.000ns : [scb] a = 0000007f, b = 9c0fc1eb, mode = 0, sum = 9c0fc26a,carry = 0
+[Pass] : a =        127, b = 2618278379, mode = 0, sum = 2618278506,carry = 0
+           270.000ns : [gen] a = 0000000f, b = 0e03a9a0, mode = 0, sum = xxxxxxxx,carry = x
+           270.000ns : [drv] a = 0000000f, b = 0e03a9a0, mode = 0, sum = xxxxxxxx,carry = x
+           280.000ns : [mon] a = 0000000f, b = 0e03a9a0, mode = 0, sum = 0e03a9af,carry = 0
+           280.000ns : [scb] a = 0000000f, b = 0e03a9a0, mode = 0, sum = 0e03a9af,carry = 0
+[Pass] : a =         15, b =  235121056, mode = 0, sum =  235121071,carry = 0
+           280.000ns : [gen] a = 0000003f, b = 1ddfd62f, mode = 0, sum = xxxxxxxx,carry = x
+           280.000ns : [drv] a = 0000003f, b = 1ddfd62f, mode = 0, sum = xxxxxxxx,carry = x
+           290.000ns : [mon] a = 0000003f, b = 1ddfd62f, mode = 0, sum = 1ddfd66e,carry = 0
+           290.000ns : [scb] a = 0000003f, b = 1ddfd62f, mode = 0, sum = 1ddfd66e,carry = 0
+[Pass] : a =         63, b =  501208623, mode = 0, sum =  501208686,carry = 0
+           290.000ns : [gen] a = 00000000, b = dd851030, mode = 1, sum = xxxxxxxx,carry = x
+           290.000ns : [drv] a = 00000000, b = dd851030, mode = 1, sum = xxxxxxxx,carry = x
+           300.000ns : [mon] a = 00000000, b = dd851030, mode = 1, sum = 227aefd0,carry = 1
+           300.000ns : [scb] a = 00000000, b = dd851030, mode = 1, sum = 227aefd0,carry = 1
+[Pass] : a =          0, b = 3716485168, mode = 1, sum =  578482128,carry = 1
+           300.000ns : [gen] a = 0000001f, b = ac076228, mode = 1, sum = xxxxxxxx,carry = x
+           300.000ns : [drv] a = 0000001f, b = ac076228, mode = 1, sum = xxxxxxxx,carry = x
+           310.000ns : [mon] a = 0000001f, b = ac076228, mode = 1, sum = 53f89df7,carry = 1
+           310.000ns : [scb] a = 0000001f, b = ac076228, mode = 1, sum = 53f89df7,carry = 1
+[Pass] : a =         31, b = 2886165032, mode = 1, sum = 1408802295,carry = 1
+           310.000ns : [gen] a = 000003ff, b = d9f6db1a, mode = 0, sum = xxxxxxxx,carry = x
+           310.000ns : [drv] a = 000003ff, b = d9f6db1a, mode = 0, sum = xxxxxxxx,carry = x
+           320.000ns : [mon] a = 000003ff, b = d9f6db1a, mode = 0, sum = d9f6df19,carry = 0
+           320.000ns : [scb] a = 000003ff, b = d9f6db1a, mode = 0, sum = d9f6df19,carry = 0
+[Pass] : a =       1023, b = 3656833818, mode = 0, sum = 3656834841,carry = 0
+           320.000ns : [gen] a = 000003ff, b = fbb3f0a5, mode = 1, sum = xxxxxxxx,carry = x
+           320.000ns : [drv] a = 000003ff, b = fbb3f0a5, mode = 1, sum = xxxxxxxx,carry = x
+           330.000ns : [mon] a = 000003ff, b = fbb3f0a5, mode = 1, sum = 044c135a,carry = 1
+           330.000ns : [scb] a = 000003ff, b = fbb3f0a5, mode = 1, sum = 044c135a,carry = 1
+[Pass] : a =       1023, b = 4222873765, mode = 1, sum =   72094554,carry = 1
+           330.000ns : [gen] a = 0000007f, b = 35cd9777, mode = 0, sum = xxxxxxxx,carry = x
+           330.000ns : [drv] a = 0000007f, b = 35cd9777, mode = 0, sum = xxxxxxxx,carry = x
+           340.000ns : [mon] a = 0000007f, b = 35cd9777, mode = 0, sum = 35cd97f6,carry = 0
+           340.000ns : [scb] a = 0000007f, b = 35cd9777, mode = 0, sum = 35cd97f6,carry = 0
+[Pass] : a =        127, b =  902666103, mode = 0, sum =  902666230,carry = 0
+           340.000ns : [gen] a = 0000ffff, b = d4fb6c28, mode = 0, sum = xxxxxxxx,carry = x
+           340.000ns : [drv] a = 0000ffff, b = d4fb6c28, mode = 0, sum = xxxxxxxx,carry = x
+           350.000ns : [mon] a = 0000ffff, b = d4fb6c28, mode = 0, sum = d4fc6c27,carry = 0
+           350.000ns : [scb] a = 0000ffff, b = d4fb6c28, mode = 0, sum = d4fc6c27,carry = 0
+[Pass] : a =      65535, b = 3573247016, mode = 0, sum = 3573312551,carry = 0
+           350.000ns : [gen] a = 0000003f, b = 23995275, mode = 0, sum = xxxxxxxx,carry = x
+           350.000ns : [drv] a = 0000003f, b = 23995275, mode = 0, sum = xxxxxxxx,carry = x
+           360.000ns : [mon] a = 0000003f, b = 23995275, mode = 0, sum = 239952b4,carry = 0
+           360.000ns : [scb] a = 0000003f, b = 23995275, mode = 0, sum = 239952b4,carry = 0
+[Pass] : a =         63, b =  597250677, mode = 0, sum =  597250740,carry = 0
+           360.000ns : [gen] a = 000003ff, b = 07405eaa, mode = 1, sum = xxxxxxxx,carry = x
+           360.000ns : [drv] a = 000003ff, b = 07405eaa, mode = 1, sum = xxxxxxxx,carry = x
+           370.000ns : [mon] a = 000003ff, b = 07405eaa, mode = 1, sum = f8bfa555,carry = 1
+           370.000ns : [scb] a = 000003ff, b = 07405eaa, mode = 1, sum = f8bfa555,carry = 1
+[Pass] : a =       1023, b =  121659050, mode = 1, sum = 4173309269,carry = 1
+           370.000ns : [gen] a = 000003ff, b = d1661378, mode = 1, sum = xxxxxxxx,carry = x
+           370.000ns : [drv] a = 000003ff, b = d1661378, mode = 1, sum = xxxxxxxx,carry = x
+           380.000ns : [mon] a = 000003ff, b = d1661378, mode = 1, sum = 2e99f087,carry = 1
+           380.000ns : [scb] a = 000003ff, b = d1661378, mode = 1, sum = 2e99f087,carry = 1
+[Pass] : a =       1023, b = 3513127800, mode = 1, sum =  781840519,carry = 1
+           380.000ns : [gen] a = 00000000, b = e92b5d65, mode = 1, sum = xxxxxxxx,carry = x
+           380.000ns : [drv] a = 00000000, b = e92b5d65, mode = 1, sum = xxxxxxxx,carry = x
+           390.000ns : [mon] a = 00000000, b = e92b5d65, mode = 1, sum = 16d4a29b,carry = 1
+           390.000ns : [scb] a = 00000000, b = e92b5d65, mode = 1, sum = 16d4a29b,carry = 1
+[Pass] : a =          0, b = 3911933285, mode = 1, sum =  383034011,carry = 1
+           390.000ns : [gen] a = 0000003f, b = 2ceb288e, mode = 1, sum = xxxxxxxx,carry = x
+           390.000ns : [drv] a = 0000003f, b = 2ceb288e, mode = 1, sum = xxxxxxxx,carry = x
+           400.000ns : [mon] a = 0000003f, b = 2ceb288e, mode = 1, sum = d314d7b1,carry = 1
+           400.000ns : [scb] a = 0000003f, b = 2ceb288e, mode = 1, sum = d314d7b1,carry = 1
+[Pass] : a =         63, b =  753608846, mode = 1, sum = 3541358513,carry = 1
+           400.000ns : [gen] a = 0000001f, b = 356aed74, mode = 0, sum = xxxxxxxx,carry = x
+           400.000ns : [drv] a = 0000001f, b = 356aed74, mode = 0, sum = xxxxxxxx,carry = x
+           410.000ns : [mon] a = 0000001f, b = 356aed74, mode = 0, sum = 356aed93,carry = 0
+           410.000ns : [scb] a = 0000001f, b = 356aed74, mode = 0, sum = 356aed93,carry = 0
+[Pass] : a =         31, b =  896200052, mode = 0, sum =  896200083,carry = 0
+           410.000ns : [gen] a = 0000003f, b = e5a2eaeb, mode = 0, sum = xxxxxxxx,carry = x
+           410.000ns : [drv] a = 0000003f, b = e5a2eaeb, mode = 0, sum = xxxxxxxx,carry = x
+           420.000ns : [mon] a = 0000003f, b = e5a2eaeb, mode = 0, sum = e5a2eb2a,carry = 0
+           420.000ns : [scb] a = 0000003f, b = e5a2eaeb, mode = 0, sum = e5a2eb2a,carry = 0
+[Pass] : a =         63, b = 3852659435, mode = 0, sum = 3852659498,carry = 0
+           420.000ns : [gen] a = 00000000, b = b350a2aa, mode = 0, sum = xxxxxxxx,carry = x
+           420.000ns : [drv] a = 00000000, b = b350a2aa, mode = 0, sum = xxxxxxxx,carry = x
+           430.000ns : [mon] a = 00000000, b = b350a2aa, mode = 0, sum = b350a2aa,carry = 0
+           430.000ns : [scb] a = 00000000, b = b350a2aa, mode = 0, sum = b350a2aa,carry = 0
+[Pass] : a =          0, b = 3008406186, mode = 0, sum = 3008406186,carry = 0
+           430.000ns : [gen] a = 0000000f, b = e7fd6ad4, mode = 1, sum = xxxxxxxx,carry = x
+           430.000ns : [drv] a = 0000000f, b = e7fd6ad4, mode = 1, sum = xxxxxxxx,carry = x
+           440.000ns : [mon] a = 0000000f, b = e7fd6ad4, mode = 1, sum = 1802953b,carry = 1
+           440.000ns : [scb] a = 0000000f, b = e7fd6ad4, mode = 1, sum = 1802953b,carry = 1
+[Pass] : a =         15, b = 3892144852, mode = 1, sum =  402822459,carry = 1
+           440.000ns : [gen] a = 0000003f, b = 82d6167b, mode = 1, sum = xxxxxxxx,carry = x
+           440.000ns : [drv] a = 0000003f, b = 82d6167b, mode = 1, sum = xxxxxxxx,carry = x
+           450.000ns : [mon] a = 0000003f, b = 82d6167b, mode = 1, sum = 7d29e9c4,carry = 1
+           450.000ns : [scb] a = 0000003f, b = 82d6167b, mode = 1, sum = 7d29e9c4,carry = 1
+[Pass] : a =         63, b = 2195068539, mode = 1, sum = 2099898820,carry = 1
+           450.000ns : [gen] a = 00000000, b = b948a228, mode = 1, sum = xxxxxxxx,carry = x
+           450.000ns : [drv] a = 00000000, b = b948a228, mode = 1, sum = xxxxxxxx,carry = x
+           460.000ns : [mon] a = 00000000, b = b948a228, mode = 1, sum = 46b75dd8,carry = 1
+           460.000ns : [scb] a = 00000000, b = b948a228, mode = 1, sum = 46b75dd8,carry = 1
+[Pass] : a =          0, b = 3108545064, mode = 1, sum = 1186422232,carry = 1
+           460.000ns : [gen] a = 0000003f, b = ab209372, mode = 0, sum = xxxxxxxx,carry = x
+           460.000ns : [drv] a = 0000003f, b = ab209372, mode = 0, sum = xxxxxxxx,carry = x
+           470.000ns : [mon] a = 0000003f, b = ab209372, mode = 0, sum = ab2093b1,carry = 0
+           470.000ns : [scb] a = 0000003f, b = ab209372, mode = 0, sum = ab2093b1,carry = 0
+[Pass] : a =         63, b = 2871038834, mode = 0, sum = 2871038897,carry = 0
+           470.000ns : [gen] a = 0000007f, b = d0d91054, mode = 1, sum = xxxxxxxx,carry = x
+           470.000ns : [drv] a = 0000007f, b = d0d91054, mode = 1, sum = xxxxxxxx,carry = x
+           480.000ns : [mon] a = 0000007f, b = d0d91054, mode = 1, sum = 2f26f02b,carry = 1
+           480.000ns : [scb] a = 0000007f, b = d0d91054, mode = 1, sum = 2f26f02b,carry = 1
+[Pass] : a =        127, b = 3503886420, mode = 1, sum =  791081003,carry = 1
+           480.000ns : [gen] a = 0000ffff, b = e0dd29b8, mode = 0, sum = xxxxxxxx,carry = x
+           480.000ns : [drv] a = 0000ffff, b = e0dd29b8, mode = 0, sum = xxxxxxxx,carry = x
+           490.000ns : [mon] a = 0000ffff, b = e0dd29b8, mode = 0, sum = e0de29b7,carry = 0
+           490.000ns : [scb] a = 0000ffff, b = e0dd29b8, mode = 0, sum = e0de29b7,carry = 0
+[Pass] : a =      65535, b = 3772590520, mode = 0, sum = 3772656055,carry = 0
+           490.000ns : [gen] a = 000000ff, b = fd18c72c, mode = 1, sum = xxxxxxxx,carry = x
+           490.000ns : [drv] a = 000000ff, b = fd18c72c, mode = 1, sum = xxxxxxxx,carry = x
+           500.000ns : [mon] a = 000000ff, b = fd18c72c, mode = 1, sum = 02e739d3,carry = 1
+           500.000ns : [scb] a = 000000ff, b = fd18c72c, mode = 1, sum = 02e739d3,carry = 1
+[Pass] : a =        255, b = 4246259500, mode = 1, sum =   48708051,carry = 1
+           500.000ns : [gen] a = 000003ff, b = 126c5d1b, mode = 0, sum = xxxxxxxx,carry = x
+           500.000ns : [drv] a = 000003ff, b = 126c5d1b, mode = 0, sum = xxxxxxxx,carry = x
+           510.000ns : [mon] a = 000003ff, b = 126c5d1b, mode = 0, sum = 126c611a,carry = 0
+           510.000ns : [scb] a = 000003ff, b = 126c5d1b, mode = 0, sum = 126c611a,carry = 0
+[Pass] : a =       1023, b =  309091611, mode = 0, sum =  309092634,carry = 0
+           510.000ns : [gen] a = 0000001f, b = 12efcb05, mode = 1, sum = xxxxxxxx,carry = x
+           510.000ns : [drv] a = 0000001f, b = 12efcb05, mode = 1, sum = xxxxxxxx,carry = x
+           520.000ns : [mon] a = 0000001f, b = 12efcb05, mode = 1, sum = ed10351a,carry = 1
+           520.000ns : [scb] a = 0000001f, b = 12efcb05, mode = 1, sum = ed10351a,carry = 1
+[Pass] : a =         31, b =  317704965, mode = 1, sum = 3977262362,carry = 1
+           520.000ns : [gen] a = 0000001f, b = ff1827cb, mode = 1, sum = xxxxxxxx,carry = x
+           520.000ns : [drv] a = 0000001f, b = ff1827cb, mode = 1, sum = xxxxxxxx,carry = x
+           530.000ns : [mon] a = 0000001f, b = ff1827cb, mode = 1, sum = 00e7d854,carry = 1
+           530.000ns : [scb] a = 0000001f, b = ff1827cb, mode = 1, sum = 00e7d854,carry = 1
+[Pass] : a =         31, b = 4279773131, mode = 1, sum =   15194196,carry = 1
+           530.000ns : [gen] a = 0000000f, b = d842a805, mode = 0, sum = xxxxxxxx,carry = x
+           530.000ns : [drv] a = 0000000f, b = d842a805, mode = 0, sum = xxxxxxxx,carry = x
+           540.000ns : [mon] a = 0000000f, b = d842a805, mode = 0, sum = d842a814,carry = 0
+           540.000ns : [scb] a = 0000000f, b = d842a805, mode = 0, sum = d842a814,carry = 0
+[Pass] : a =         15, b = 3628247045, mode = 0, sum = 3628247060,carry = 0
+           540.000ns : [gen] a = 0000ffff, b = b6f5cda0, mode = 1, sum = xxxxxxxx,carry = x
+           540.000ns : [drv] a = 0000ffff, b = b6f5cda0, mode = 1, sum = xxxxxxxx,carry = x
+           550.000ns : [mon] a = 0000ffff, b = b6f5cda0, mode = 1, sum = 490b325f,carry = 1
+           550.000ns : [scb] a = 0000ffff, b = b6f5cda0, mode = 1, sum = 490b325f,carry = 1
+[Pass] : a =      65535, b = 3069562272, mode = 1, sum = 1225470559,carry = 1
+           550.000ns : [gen] a = 0000001f, b = ddc96faf, mode = 0, sum = xxxxxxxx,carry = x
+           550.000ns : [drv] a = 0000001f, b = ddc96faf, mode = 0, sum = xxxxxxxx,carry = x
+           560.000ns : [mon] a = 0000001f, b = ddc96faf, mode = 0, sum = ddc96fce,carry = 0
+           560.000ns : [scb] a = 0000001f, b = ddc96faf, mode = 0, sum = ddc96fce,carry = 0
+[Pass] : a =         31, b = 3720966063, mode = 0, sum = 3720966094,carry = 0
+           560.000ns : [gen] a = 0000001f, b = ed31cc48, mode = 0, sum = xxxxxxxx,carry = x
+           560.000ns : [drv] a = 0000001f, b = ed31cc48, mode = 0, sum = xxxxxxxx,carry = x
+           570.000ns : [mon] a = 0000001f, b = ed31cc48, mode = 0, sum = ed31cc67,carry = 0
+           570.000ns : [scb] a = 0000001f, b = ed31cc48, mode = 0, sum = ed31cc67,carry = 0
+[Pass] : a =         31, b = 3979463752, mode = 0, sum = 3979463783,carry = 0
+           570.000ns : [gen] a = 00000000, b = e08dde32, mode = 1, sum = xxxxxxxx,carry = x
+           570.000ns : [drv] a = 00000000, b = e08dde32, mode = 1, sum = xxxxxxxx,carry = x
+           580.000ns : [mon] a = 00000000, b = e08dde32, mode = 1, sum = 1f7221ce,carry = 1
+           580.000ns : [scb] a = 00000000, b = e08dde32, mode = 1, sum = 1f7221ce,carry = 1
+[Pass] : a =          0, b = 3767393842, mode = 1, sum =  527573454,carry = 1
+           580.000ns : [gen] a = 0000003f, b = fa39eed9, mode = 1, sum = xxxxxxxx,carry = x
+           580.000ns : [drv] a = 0000003f, b = fa39eed9, mode = 1, sum = xxxxxxxx,carry = x
+           590.000ns : [mon] a = 0000003f, b = fa39eed9, mode = 1, sum = 05c61166,carry = 1
+           590.000ns : [scb] a = 0000003f, b = fa39eed9, mode = 1, sum = 05c61166,carry = 1
+[Pass] : a =         63, b = 4198100697, mode = 1, sum =   96866662,carry = 1
+           590.000ns : [gen] a = 0000003f, b = da35901c, mode = 1, sum = xxxxxxxx,carry = x
+           590.000ns : [drv] a = 0000003f, b = da35901c, mode = 1, sum = xxxxxxxx,carry = x
+           600.000ns : [mon] a = 0000003f, b = da35901c, mode = 1, sum = 25ca7023,carry = 1
+           600.000ns : [scb] a = 0000003f, b = da35901c, mode = 1, sum = 25ca7023,carry = 1
+[Pass] : a =         63, b = 3660943388, mode = 1, sum =  634023971,carry = 1
+           600.000ns : [gen] a = 000000ff, b = 0d5ec9b8, mode = 0, sum = xxxxxxxx,carry = x
+           600.000ns : [drv] a = 000000ff, b = 0d5ec9b8, mode = 0, sum = xxxxxxxx,carry = x
+           610.000ns : [mon] a = 000000ff, b = 0d5ec9b8, mode = 0, sum = 0d5ecab7,carry = 0
+           610.000ns : [scb] a = 000000ff, b = 0d5ec9b8, mode = 0, sum = 0d5ecab7,carry = 0
+[Pass] : a =        255, b =  224315832, mode = 0, sum =  224316087,carry = 0
+           610.000ns : [gen] a = 0000007f, b = f297f2d4, mode = 0, sum = xxxxxxxx,carry = x
+           610.000ns : [drv] a = 0000007f, b = f297f2d4, mode = 0, sum = xxxxxxxx,carry = x
+           620.000ns : [mon] a = 0000007f, b = f297f2d4, mode = 0, sum = f297f353,carry = 0
+           620.000ns : [scb] a = 0000007f, b = f297f2d4, mode = 0, sum = f297f353,carry = 0
+[Pass] : a =        127, b = 4070044372, mode = 0, sum = 4070044499,carry = 0
+           620.000ns : [gen] a = 0000ffff, b = f91abd25, mode = 1, sum = xxxxxxxx,carry = x
+           620.000ns : [drv] a = 0000ffff, b = f91abd25, mode = 1, sum = xxxxxxxx,carry = x
+           630.000ns : [mon] a = 0000ffff, b = f91abd25, mode = 1, sum = 06e642da,carry = 1
+           630.000ns : [scb] a = 0000ffff, b = f91abd25, mode = 1, sum = 06e642da,carry = 1
+[Pass] : a =      65535, b = 4179279141, mode = 1, sum =  115753690,carry = 1
+           630.000ns : [gen] a = 000000ff, b = d6091160, mode = 1, sum = xxxxxxxx,carry = x
+           630.000ns : [drv] a = 000000ff, b = d6091160, mode = 1, sum = xxxxxxxx,carry = x
+           640.000ns : [mon] a = 000000ff, b = d6091160, mode = 1, sum = 29f6ef9f,carry = 1
+           640.000ns : [scb] a = 000000ff, b = d6091160, mode = 1, sum = 29f6ef9f,carry = 1
+[Pass] : a =        255, b = 3590918496, mode = 1, sum =  704049055,carry = 1
+           640.000ns : [gen] a = 00000000, b = 208c5557, mode = 0, sum = xxxxxxxx,carry = x
+           640.000ns : [drv] a = 00000000, b = 208c5557, mode = 0, sum = xxxxxxxx,carry = x
+           650.000ns : [mon] a = 00000000, b = 208c5557, mode = 0, sum = 208c5557,carry = 0
+           650.000ns : [scb] a = 00000000, b = 208c5557, mode = 0, sum = 208c5557,carry = 0
+[Pass] : a =          0, b =  546067799, mode = 0, sum =  546067799,carry = 0
+           650.000ns : [gen] a = 0000000f, b = ce12402d, mode = 1, sum = xxxxxxxx,carry = x
+           650.000ns : [drv] a = 0000000f, b = ce12402d, mode = 1, sum = xxxxxxxx,carry = x
+           660.000ns : [mon] a = 0000000f, b = ce12402d, mode = 1, sum = 31edbfe2,carry = 1
+           660.000ns : [scb] a = 0000000f, b = ce12402d, mode = 1, sum = 31edbfe2,carry = 1
+[Pass] : a =         15, b = 3457302573, mode = 1, sum =  837664738,carry = 1
+           660.000ns : [gen] a = 00000000, b = ee69eaf7, mode = 0, sum = xxxxxxxx,carry = x
+           660.000ns : [drv] a = 00000000, b = ee69eaf7, mode = 0, sum = xxxxxxxx,carry = x
+           670.000ns : [mon] a = 00000000, b = ee69eaf7, mode = 0, sum = ee69eaf7,carry = 0
+           670.000ns : [scb] a = 00000000, b = ee69eaf7, mode = 0, sum = ee69eaf7,carry = 0
+[Pass] : a =          0, b = 3999918839, mode = 0, sum = 3999918839,carry = 0
+           670.000ns : [gen] a = 0000003f, b = e02099f1, mode = 0, sum = xxxxxxxx,carry = x
+           670.000ns : [drv] a = 0000003f, b = e02099f1, mode = 0, sum = xxxxxxxx,carry = x
+           680.000ns : [mon] a = 0000003f, b = e02099f1, mode = 0, sum = e0209a30,carry = 0
+           680.000ns : [scb] a = 0000003f, b = e02099f1, mode = 0, sum = e0209a30,carry = 0
+[Pass] : a =         63, b = 3760232945, mode = 0, sum = 3760233008,carry = 0
+           680.000ns : [gen] a = 0000007f, b = 9eb31cbb, mode = 1, sum = xxxxxxxx,carry = x
+           680.000ns : [drv] a = 0000007f, b = 9eb31cbb, mode = 1, sum = xxxxxxxx,carry = x
+           690.000ns : [mon] a = 0000007f, b = 9eb31cbb, mode = 1, sum = 614ce3c4,carry = 1
+           690.000ns : [scb] a = 0000007f, b = 9eb31cbb, mode = 1, sum = 614ce3c4,carry = 1
+[Pass] : a =        127, b = 2662538427, mode = 1, sum = 1632428996,carry = 1
+           690.000ns : [gen] a = 00000000, b = a89d5355, mode = 1, sum = xxxxxxxx,carry = x
+           690.000ns : [drv] a = 00000000, b = a89d5355, mode = 1, sum = xxxxxxxx,carry = x
+           700.000ns : [mon] a = 00000000, b = a89d5355, mode = 1, sum = 5762acab,carry = 1
+           700.000ns : [scb] a = 00000000, b = a89d5355, mode = 1, sum = 5762acab,carry = 1
+[Pass] : a =          0, b = 2828882773, mode = 1, sum = 1466084523,carry = 1
+           700.000ns : [gen] a = 000003ff, b = ab498f88, mode = 1, sum = xxxxxxxx,carry = x
+           700.000ns : [drv] a = 000003ff, b = ab498f88, mode = 1, sum = xxxxxxxx,carry = x
+           710.000ns : [mon] a = 000003ff, b = ab498f88, mode = 1, sum = 54b67477,carry = 1
+           710.000ns : [scb] a = 000003ff, b = ab498f88, mode = 1, sum = 54b67477,carry = 1
+[Pass] : a =       1023, b = 2873724808, mode = 1, sum = 1421243511,carry = 1
+           710.000ns : [gen] a = 0000007f, b = 9c1348e1, mode = 1, sum = xxxxxxxx,carry = x
+           710.000ns : [drv] a = 0000007f, b = 9c1348e1, mode = 1, sum = xxxxxxxx,carry = x
+           720.000ns : [mon] a = 0000007f, b = 9c1348e1, mode = 1, sum = 63ecb79e,carry = 1
+           720.000ns : [scb] a = 0000007f, b = 9c1348e1, mode = 1, sum = 63ecb79e,carry = 1
+[Pass] : a =        127, b = 2618509537, mode = 1, sum = 1676457886,carry = 1
+           720.000ns : [gen] a = 0000003f, b = 8fec2b42, mode = 1, sum = xxxxxxxx,carry = x
+           720.000ns : [drv] a = 0000003f, b = 8fec2b42, mode = 1, sum = xxxxxxxx,carry = x
+           730.000ns : [mon] a = 0000003f, b = 8fec2b42, mode = 1, sum = 7013d4fd,carry = 1
+           730.000ns : [scb] a = 0000003f, b = 8fec2b42, mode = 1, sum = 7013d4fd,carry = 1
+[Pass] : a =         63, b = 2414619458, mode = 1, sum = 1880347901,carry = 1
+           730.000ns : [gen] a = 0000003f, b = be1e51d7, mode = 0, sum = xxxxxxxx,carry = x
+           730.000ns : [drv] a = 0000003f, b = be1e51d7, mode = 0, sum = xxxxxxxx,carry = x
+           740.000ns : [mon] a = 0000003f, b = be1e51d7, mode = 0, sum = be1e5216,carry = 0
+           740.000ns : [scb] a = 0000003f, b = be1e51d7, mode = 0, sum = be1e5216,carry = 0
+[Pass] : a =         63, b = 3189658071, mode = 0, sum = 3189658134,carry = 0
+           740.000ns : [gen] a = 000003ff, b = bf655083, mode = 1, sum = xxxxxxxx,carry = x
+           740.000ns : [drv] a = 000003ff, b = bf655083, mode = 1, sum = xxxxxxxx,carry = x
+           750.000ns : [mon] a = 000003ff, b = bf655083, mode = 1, sum = 409ab37c,carry = 1
+           750.000ns : [scb] a = 000003ff, b = bf655083, mode = 1, sum = 409ab37c,carry = 1
+[Pass] : a =       1023, b = 3211088003, mode = 1, sum = 1083880316,carry = 1
+           750.000ns : [gen] a = 0000000f, b = 0532681f, mode = 1, sum = xxxxxxxx,carry = x
+           750.000ns : [drv] a = 0000000f, b = 0532681f, mode = 1, sum = xxxxxxxx,carry = x
+           760.000ns : [mon] a = 0000000f, b = 0532681f, mode = 1, sum = facd97f0,carry = 1
+           760.000ns : [scb] a = 0000000f, b = 0532681f, mode = 1, sum = facd97f0,carry = 1
+[Pass] : a =         15, b =   87189535, mode = 1, sum = 4207777776,carry = 1
+           760.000ns : [gen] a = 0000003f, b = d0d8fdb6, mode = 1, sum = xxxxxxxx,carry = x
+           760.000ns : [drv] a = 0000003f, b = d0d8fdb6, mode = 1, sum = xxxxxxxx,carry = x
+           770.000ns : [mon] a = 0000003f, b = d0d8fdb6, mode = 1, sum = 2f270289,carry = 1
+           770.000ns : [scb] a = 0000003f, b = d0d8fdb6, mode = 1, sum = 2f270289,carry = 1
+[Pass] : a =         63, b = 3503881654, mode = 1, sum =  791085705,carry = 1
+           770.000ns : [gen] a = 0000003f, b = e3829ab5, mode = 1, sum = xxxxxxxx,carry = x
+           770.000ns : [drv] a = 0000003f, b = e3829ab5, mode = 1, sum = xxxxxxxx,carry = x
+           780.000ns : [mon] a = 0000003f, b = e3829ab5, mode = 1, sum = 1c7d658a,carry = 1
+           780.000ns : [scb] a = 0000003f, b = e3829ab5, mode = 1, sum = 1c7d658a,carry = 1
+[Pass] : a =         63, b = 3816987317, mode = 1, sum =  477980042,carry = 1
+           780.000ns : [gen] a = 0000003f, b = cf791b75, mode = 0, sum = xxxxxxxx,carry = x
+           780.000ns : [drv] a = 0000003f, b = cf791b75, mode = 0, sum = xxxxxxxx,carry = x
+           790.000ns : [mon] a = 0000003f, b = cf791b75, mode = 0, sum = cf791bb4,carry = 0
+           790.000ns : [scb] a = 0000003f, b = cf791b75, mode = 0, sum = cf791bb4,carry = 0
+[Pass] : a =         63, b = 3480820597, mode = 0, sum = 3480820660,carry = 0
+           790.000ns : [gen] a = 0000007f, b = b88b2e15, mode = 0, sum = xxxxxxxx,carry = x
+           790.000ns : [drv] a = 0000007f, b = b88b2e15, mode = 0, sum = xxxxxxxx,carry = x
+           800.000ns : [mon] a = 0000007f, b = b88b2e15, mode = 0, sum = b88b2e94,carry = 0
+           800.000ns : [scb] a = 0000007f, b = b88b2e15, mode = 0, sum = b88b2e94,carry = 0
+[Pass] : a =        127, b = 3096129045, mode = 0, sum = 3096129172,carry = 0
+           800.000ns : [gen] a = 0000000f, b = 1dfc8388, mode = 0, sum = xxxxxxxx,carry = x
+           800.000ns : [drv] a = 0000000f, b = 1dfc8388, mode = 0, sum = xxxxxxxx,carry = x
+           810.000ns : [mon] a = 0000000f, b = 1dfc8388, mode = 0, sum = 1dfc8397,carry = 0
+           810.000ns : [scb] a = 0000000f, b = 1dfc8388, mode = 0, sum = 1dfc8397,carry = 0
+[Pass] : a =         15, b =  503088008, mode = 0, sum =  503088023,carry = 0
+           810.000ns : [gen] a = 000003ff, b = a2872e91, mode = 0, sum = xxxxxxxx,carry = x
+           810.000ns : [drv] a = 000003ff, b = a2872e91, mode = 0, sum = xxxxxxxx,carry = x
+           820.000ns : [mon] a = 000003ff, b = a2872e91, mode = 0, sum = a2873290,carry = 0
+           820.000ns : [scb] a = 000003ff, b = a2872e91, mode = 0, sum = a2873290,carry = 0
+[Pass] : a =       1023, b = 2726768273, mode = 0, sum = 2726769296,carry = 0
+           820.000ns : [gen] a = 0000ffff, b = 8fb4f5a1, mode = 1, sum = xxxxxxxx,carry = x
+           820.000ns : [drv] a = 0000ffff, b = 8fb4f5a1, mode = 1, sum = xxxxxxxx,carry = x
+           830.000ns : [mon] a = 0000ffff, b = 8fb4f5a1, mode = 1, sum = 704c0a5e,carry = 1
+           830.000ns : [scb] a = 0000ffff, b = 8fb4f5a1, mode = 1, sum = 704c0a5e,carry = 1
+[Pass] : a =      65535, b = 2411001249, mode = 1, sum = 1884031582,carry = 1
+           830.000ns : [gen] a = 0000003f, b = a6c31c11, mode = 0, sum = xxxxxxxx,carry = x
+           830.000ns : [drv] a = 0000003f, b = a6c31c11, mode = 0, sum = xxxxxxxx,carry = x
+           840.000ns : [mon] a = 0000003f, b = a6c31c11, mode = 0, sum = a6c31c50,carry = 0
+           840.000ns : [scb] a = 0000003f, b = a6c31c11, mode = 0, sum = a6c31c50,carry = 0
+[Pass] : a =         63, b = 2797804561, mode = 0, sum = 2797804624,carry = 0
+           840.000ns : [gen] a = 0000ffff, b = c2124faa, mode = 1, sum = xxxxxxxx,carry = x
+           840.000ns : [drv] a = 0000ffff, b = c2124faa, mode = 1, sum = xxxxxxxx,carry = x
+           850.000ns : [mon] a = 0000ffff, b = c2124faa, mode = 1, sum = 3deeb055,carry = 1
+           850.000ns : [scb] a = 0000ffff, b = c2124faa, mode = 1, sum = 3deeb055,carry = 1
+[Pass] : a =      65535, b = 3255979946, mode = 1, sum = 1039052885,carry = 1
+           850.000ns : [gen] a = 0000000f, b = b4227c13, mode = 1, sum = xxxxxxxx,carry = x
+           850.000ns : [drv] a = 0000000f, b = b4227c13, mode = 1, sum = xxxxxxxx,carry = x
+           860.000ns : [mon] a = 0000000f, b = b4227c13, mode = 1, sum = 4bdd83fc,carry = 1
+           860.000ns : [scb] a = 0000000f, b = b4227c13, mode = 1, sum = 4bdd83fc,carry = 1
+[Pass] : a =         15, b = 3022158867, mode = 1, sum = 1272808444,carry = 1
+           860.000ns : [gen] a = 0000001f, b = fd580b88, mode = 1, sum = xxxxxxxx,carry = x
+           860.000ns : [drv] a = 0000001f, b = fd580b88, mode = 1, sum = xxxxxxxx,carry = x
+           870.000ns : [mon] a = 0000001f, b = fd580b88, mode = 1, sum = 02a7f497,carry = 1
+           870.000ns : [scb] a = 0000001f, b = fd580b88, mode = 1, sum = 02a7f497,carry = 1
+[Pass] : a =         31, b = 4250405768, mode = 1, sum =   44561559,carry = 1
+           870.000ns : [gen] a = 0000ffff, b = 98742282, mode = 1, sum = xxxxxxxx,carry = x
+           870.000ns : [drv] a = 0000ffff, b = 98742282, mode = 1, sum = xxxxxxxx,carry = x
+           880.000ns : [mon] a = 0000ffff, b = 98742282, mode = 1, sum = 678cdd7d,carry = 1
+           880.000ns : [scb] a = 0000ffff, b = 98742282, mode = 1, sum = 678cdd7d,carry = 1
+[Pass] : a =      65535, b = 2557747842, mode = 1, sum = 1737284989,carry = 1
+           880.000ns : [gen] a = 0000007f, b = 2f220d2c, mode = 0, sum = xxxxxxxx,carry = x
+           880.000ns : [drv] a = 0000007f, b = 2f220d2c, mode = 0, sum = xxxxxxxx,carry = x
+           890.000ns : [mon] a = 0000007f, b = 2f220d2c, mode = 0, sum = 2f220dab,carry = 0
+           890.000ns : [scb] a = 0000007f, b = 2f220d2c, mode = 0, sum = 2f220dab,carry = 0
+[Pass] : a =        127, b =  790760748, mode = 0, sum =  790760875,carry = 0
+           890.000ns : [gen] a = 0000000f, b = 9131a16b, mode = 0, sum = xxxxxxxx,carry = x
+           890.000ns : [drv] a = 0000000f, b = 9131a16b, mode = 0, sum = xxxxxxxx,carry = x
+           900.000ns : [mon] a = 0000000f, b = 9131a16b, mode = 0, sum = 9131a17a,carry = 0
+           900.000ns : [scb] a = 0000000f, b = 9131a16b, mode = 0, sum = 9131a17a,carry = 0
+[Pass] : a =         15, b = 2435948907, mode = 0, sum = 2435948922,carry = 0
+           900.000ns : [gen] a = 0000003f, b = d972fdbb, mode = 0, sum = xxxxxxxx,carry = x
+           900.000ns : [drv] a = 0000003f, b = d972fdbb, mode = 0, sum = xxxxxxxx,carry = x
+           910.000ns : [mon] a = 0000003f, b = d972fdbb, mode = 0, sum = d972fdfa,carry = 0
+           910.000ns : [scb] a = 0000003f, b = d972fdbb, mode = 0, sum = d972fdfa,carry = 0
+[Pass] : a =         63, b = 3648191931, mode = 0, sum = 3648191994,carry = 0
+           910.000ns : [gen] a = 0000007f, b = abe474a5, mode = 0, sum = xxxxxxxx,carry = x
+           910.000ns : [drv] a = 0000007f, b = abe474a5, mode = 0, sum = xxxxxxxx,carry = x
+           920.000ns : [mon] a = 0000007f, b = abe474a5, mode = 0, sum = abe47524,carry = 0
+           920.000ns : [scb] a = 0000007f, b = abe

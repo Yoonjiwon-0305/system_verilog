@@ -6,6 +6,8 @@ Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
 Starting simulation data flow analysis
+WARNING: [XSIM 43-4468] File : D:/workplace/system_verilog/02.24_adder_sv_verification/02.24_adder_sv_verification.srcs/sim_1/new/tb_adder_verification.sv, Line : 16, RANDC variable size more than 8 bits. This will be treated as a RAND variable instead.
+WARNING: [XSIM 43-4468] File : D:/workplace/system_verilog/02.24_adder_sv_verification/02.24_adder_sv_verification.srcs/sim_1/new/tb_adder_verification.sv, Line : 15, RANDC variable size more than 8 bits. This will be treated as a RAND variable instead.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling package xil_defaultlib.$unit_adder_sv
