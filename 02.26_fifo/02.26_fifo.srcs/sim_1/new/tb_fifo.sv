@@ -171,7 +171,7 @@ endclass  //environment
 module tb_fifo ();
 
     logic clk = 0;
-    assign sram_if.clk = clk;
+    assign fifo_if.clk = clk;
 
     fifo_interface fifo_if ();
 
