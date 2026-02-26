@@ -40,7 +40,7 @@ class generator;
     task run(int run_count);
         repeat (run_count) begin
             tr = new();
-            assert (tr.randomaize())
+            assert (tr.randomize())
             else $display("[gen] tr.randomize() error!!!");
             tr.randomize();
             gen2drv_mbox.put(tr);
@@ -94,7 +94,17 @@ class monitor;
     endfunction  //new()
 
     task run();
-
+        forever begin
+            @(posedge fifo_if.clk);
+            if (fifo_if.push || fifo_if.pop) begin  // 하나라도 1이면 
+                tr = new();
+                tr.push = fifo_if.push;
+                tr.pop = fifo_if.pop;
+                tr.wdata = fifo_if.wdata;
+                tr.rdata = fifo_if.rdata;
+                mon2scb_mbox.put(tr);
+            end
+        end
     endtask  //
 
 endclass  //monitor
@@ -104,6 +114,7 @@ class scoreboard;
     transaction tr;
     mailbox #(transaction) mon2scb_mbox;
     event gen_next_ev;
+    int pass_cnt = 0, fail_cnt = 0, try_cnt = 0;
 
     function new(mailbox#(transaction) mon2scb_mbox, event gen_next_ev);
         this.mon2scb_mbox = mon2scb_mbox;
