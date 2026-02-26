@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/workplace/system_verilog/02.26_sram_sv/02.26_sram_sv.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/workplace/system_verilog/02.26_sram_sv/02.26_sram_sv.srcs/sim_1/new/tb_sram.sv,1772089133,systemVerilog,,,,sram_interface;tb_sram,,uvm,,,,,,
+D:/workplace/system_verilog/02.26_sram_sv/02.26_sram_sv.srcs/sources_1/new/sram.sv,1772073493,systemVerilog,D:/workplace/system_verilog/02.26_sram_sv/02.26_sram_sv.srcs/sim_1/new/tb_sram.sv,D:/workplace/system_verilog/02.26_sram_sv/02.26_sram_sv.srcs/sim_1/new/tb_sram.sv,,$unit_sram_sv;sram,,uvm,,,,,,

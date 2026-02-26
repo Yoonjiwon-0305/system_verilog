@@ -6,6 +6,14 @@ interface register_interface;
     logic [7:0] wdata;
     logic [7:0] rdata;
 
+    property preset_ckeck;
+        @(posedge clk) reset |=> (rdata == 0);
+    endproperty
+
+    reg_reset_check :
+    assert property (preset_ckeck)
+    else $display("%t : Assert error : reset check", $time);  // 검증용 
+
 endinterface  // register_interface
 
 
@@ -33,6 +41,11 @@ class generator;
     task run(int run_count);
         repeat (run_count) begin
             tr = new();
+            assert (tr.randomize())  // 원인파악하기 위해 넣어줌
+            else
+                $display(
+                    "[gen] tr.randomize() error!!!"
+                );  // 조건이 돌지 않을때 
             tr.randomize();
             gen2drv_mbox.put(tr);
             tr.display("gen");
@@ -58,6 +71,7 @@ class driver;
     task preset();
         register_if.clk   = 0;
         register_if.reset = 1;
+        register_if.wdata = 0;
         @(posedge register_if.clk);
         @(posedge register_if.clk);
         register_if.reset = 0;
@@ -163,6 +177,7 @@ class environment;
         $stop;
     endtask
 endclass  //environment
+
 module tb_register_8bit ();
 
     register_interface register_if ();

@@ -1,0 +1,57 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+            25.000ns : [gen] we = 0 , wdata = 16, rdata = xx
+            30.000ns : [dvr] we = 0 , wdata = 16, rdata = xx
+            36.000ns : [mon] we = 0 , wdata = 16, rdata = 00
+            36.000ns : [scb] we = 0 , wdata = 16, rdata = 00
+            36.000ns : [gen] we = 0 , wdata = f1, rdata = xx
+            40.000ns : [dvr] we = 0 , wdata = f1, rdata = xx
+            46.000ns : [mon] we = 0 , wdata = f1, rdata = 00
+            46.000ns : [scb] we = 0 , wdata = f1, rdata = 00
+            46.000ns : [gen] we = 1 , wdata = 80, rdata = xx
+            50.000ns : [dvr] we = 1 , wdata = 80, rdata = xx
+            56.000ns : [mon] we = 1 , wdata = 80, rdata = 80
+            56.000ns : Pass : wdata = 80, rdata = 80
+            56.000ns : [scb] we = 1 , wdata = 80, rdata = 80
+            56.000ns : [gen] we = 1 , wdata = c3, rdata = xx
+            60.000ns : [dvr] we = 1 , wdata = c3, rdata = xx
+            66.000ns : [mon] we = 1 , wdata = c3, rdata = c3
+            66.000ns : Pass : wdata = c3, rdata = c3
+            66.000ns : [scb] we = 1 , wdata = c3, rdata = c3
+            66.000ns : [gen] we = 0 , wdata = 7f, rdata = xx
+            70.000ns : [dvr] we = 0 , wdata = 7f, rdata = xx
+            76.000ns : [mon] we = 0 , wdata = 7f, rdata = c3
+            76.000ns : [scb] we = 0 , wdata = 7f, rdata = c3
+            76.000ns : [gen] we = 1 , wdata = 55, rdata = xx
+            80.000ns : [dvr] we = 1 , wdata = 55, rdata = xx
+            86.000ns : [mon] we = 1 , wdata = 55, rdata = 55
+            86.000ns : Pass : wdata = 55, rdata = 55
+            86.000ns : [scb] we = 1 , wdata = 55, rdata = 55
+            86.000ns : [gen] we = 0 , wdata = df, rdata = xx
+            90.000ns : [dvr] we = 0 , wdata = df, rdata = xx
+            96.000ns : [mon] we = 0 , wdata = df, rdata = 55
+            96.000ns : [scb] we = 0 , wdata = df, rdata = 55
+            96.000ns : [gen] we = 0 , wdata = 06, rdata = xx
+           100.000ns : [dvr] we = 0 , wdata = 06, rdata = xx
+           106.000ns : [mon] we = 0 , wdata = 06, rdata = 55
+           106.000ns : [scb] we = 0 , wdata = 06, rdata = 55
+           106.000ns : [gen] we = 0 , wdata = 25, rdata = xx
+           110.000ns : [dvr] we = 0 , wdata = 25, rdata = xx
+           116.000ns : [mon] we = 0 , wdata = 25, rdata = 55
+           116.000ns : [scb] we = 0 , wdata = 25, rdata = 55
+           116.000ns : [gen] we = 1 , wdata = 77, rdata = xx
+           120.000ns : [dvr] we = 1 , wdata = 77, rdata = xx
+           126.000ns : [mon] we = 1 , wdata = 77, rdata = 77
+           126.000ns : Pass : wdata = 77, rdata = 77
+           126.000ns : [scb] we = 1 , wdata = 77, rdata = 77
+           136.000ns : [mon] we = 1 , wdata = 77, rdata = 77
+           136.000ns : Pass : wdata = 77, rdata = 77
+           136.000ns : [scb] we = 1 , wdata = 77, rdata = 77
+_______________________________
+** 8bit register verifi **
+*******************************
+** total try count =  11     **
+** pass count =   5          **
+** fail count =   0          **
+*******************************
+$stop called at time : 146 ns : File "D:/workplace/system_verilog/02.25_8bit_register_sv/02.25_8bit_register_sv.srcs/sim_1/new/tb_register_8bit_we.sv" Line 199

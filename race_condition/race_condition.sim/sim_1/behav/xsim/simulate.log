@@ -1,0 +1,4 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+1
+$stop called at time : 1 ns : File "D:/workplace/system_verilog/race_condition/race_condition.srcs/sim_1/new/tb_race_condition.sv" Line 13

@@ -1,0 +1,261 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+             0.000ns : [gen] we = 0, addr = 04, wdata = 2b, rdata = xx
+             6.000ns : [mon] we = 0, addr = 00, wdata = 00, rdata = xx
+             6.000ns : [scb] we = 0, addr = 00, wdata = 00, rdata = xx
+             6.000ns : Pass : wdata = xx, rdata = xx
+             6.000ns : [gen] we = 1, addr = 01, wdata = 22, rdata = xx
+            10.000ns : [dvr] we = 0, addr = 04, wdata = 2b, rdata = xx
+            16.000ns : [mon] we = 0, addr = 04, wdata = 2b, rdata = xx
+            16.000ns : [scb] we = 0, addr = 04, wdata = 2b, rdata = xx
+            16.000ns : Pass : wdata = xx, rdata = xx
+            16.000ns : [gen] we = 1, addr = 01, wdata = c4, rdata = xx
+            20.000ns : [dvr] we = 1, addr = 01, wdata = 22, rdata = xx
+            26.000ns : [mon] we = 1, addr = 01, wdata = 22, rdata = 22
+            26.000ns : [scb] we = 1, addr = 01, wdata = 22, rdata = 22
+22
+            26.000ns : [gen] we = 0, addr = 05, wdata = 28, rdata = xx
+            30.000ns : [dvr] we = 1, addr = 01, wdata = c4, rdata = xx
+            36.000ns : [mon] we = 1, addr = 01, wdata = c4, rdata = c4
+            36.000ns : [scb] we = 1, addr = 01, wdata = c4, rdata = c4
+c4
+            36.000ns : [gen] we = 1, addr = 0d, wdata = 5d, rdata = xx
+            40.000ns : [dvr] we = 0, addr = 05, wdata = 28, rdata = xx
+            46.000ns : [mon] we = 0, addr = 05, wdata = 28, rdata = xx
+            46.000ns : [scb] we = 0, addr = 05, wdata = 28, rdata = xx
+            46.000ns : Pass : wdata = xx, rdata = xx
+            46.000ns : [gen] we = 1, addr = 0a, wdata = aa, rdata = xx
+            50.000ns : [dvr] we = 1, addr = 0d, wdata = 5d, rdata = xx
+            56.000ns : [mon] we = 1, addr = 0d, wdata = 5d, rdata = 5d
+            56.000ns : [scb] we = 1, addr = 0d, wdata = 5d, rdata = 5d
+5d
+            56.000ns : [gen] we = 1, addr = 07, wdata = 2c, rdata = xx
+            60.000ns : [dvr] we = 1, addr = 0a, wdata = aa, rdata = xx
+            66.000ns : [mon] we = 1, addr = 0a, wdata = aa, rdata = aa
+            66.000ns : [scb] we = 1, addr = 0a, wdata = aa, rdata = aa
+aa
+            66.000ns : [gen] we = 0, addr = 0f, wdata = ed, rdata = xx
+            70.000ns : [dvr] we = 1, addr = 07, wdata = 2c, rdata = xx
+            76.000ns : [mon] we = 1, addr = 07, wdata = 2c, rdata = 2c
+            76.000ns : [scb] we = 1, addr = 07, wdata = 2c, rdata = 2c
+2c
+            76.000ns : [gen] we = 1, addr = 06, wdata = e4, rdata = xx
+            80.000ns : [dvr] we = 0, addr = 0f, wdata = ed, rdata = xx
+            86.000ns : [mon] we = 0, addr = 0f, wdata = ed, rdata = xx
+            86.000ns : [scb] we = 0, addr = 0f, wdata = ed, rdata = xx
+            86.000ns : Pass : wdata = xx, rdata = xx
+            86.000ns : [gen] we = 0, addr = 0a, wdata = b2, rdata = xx
+            90.000ns : [dvr] we = 1, addr = 06, wdata = e4, rdata = xx
+            96.000ns : [mon] we = 1, addr = 06, wdata = e4, rdata = e4
+            96.000ns : [scb] we = 1, addr = 06, wdata = e4, rdata = e4
+e4
+            96.000ns : [gen] we = 1, addr = 0d, wdata = d8, rdata = xx
+           100.000ns : [dvr] we = 0, addr = 0a, wdata = b2, rdata = xx
+           106.000ns : [mon] we = 0, addr = 0a, wdata = b2, rdata = aa
+           106.000ns : [scb] we = 0, addr = 0a, wdata = b2, rdata = aa
+           106.000ns : Pass : wdata = aa, rdata = aa
+           106.000ns : [gen] we = 0, addr = 0c, wdata = e6, rdata = xx
+           110.000ns : [dvr] we = 1, addr = 0d, wdata = d8, rdata = xx
+           116.000ns : [mon] we = 1, addr = 0d, wdata = d8, rdata = d8
+           116.000ns : [scb] we = 1, addr = 0d, wdata = d8, rdata = d8
+d8
+           116.000ns : [gen] we = 1, addr = 0f, wdata = 73, rdata = xx
+           120.000ns : [dvr] we = 0, addr = 0c, wdata = e6, rdata = xx
+           126.000ns : [mon] we = 0, addr = 0c, wdata = e6, rdata = xx
+           126.000ns : [scb] we = 0, addr = 0c, wdata = e6, rdata = xx
+           126.000ns : Pass : wdata = xx, rdata = xx
+           126.000ns : [gen] we = 0, addr = 00, wdata = dd, rdata = xx
+           130.000ns : [dvr] we = 1, addr = 0f, wdata = 73, rdata = xx
+           136.000ns : [mon] we = 1, addr = 0f, wdata = 73, rdata = 73
+           136.000ns : [scb] we = 1, addr = 0f, wdata = 73, rdata = 73
+73
+           136.000ns : [gen] we = 1, addr = 0f, wdata = b0, rdata = xx
+           140.000ns : [dvr] we = 0, addr = 00, wdata = dd, rdata = xx
+           146.000ns : [mon] we = 0, addr = 00, wdata = dd, rdata = xx
+           146.000ns : [scb] we = 0, addr = 00, wdata = dd, rdata = xx
+           146.000ns : Pass : wdata = xx, rdata = xx
+           146.000ns : [gen] we = 0, addr = 01, wdata = c0, rdata = xx
+           150.000ns : [dvr] we = 1, addr = 0f, wdata = b0, rdata = xx
+           156.000ns : [mon] we = 1, addr = 0f, wdata = b0, rdata = b0
+           156.000ns : [scb] we = 1, addr = 0f, wdata = b0, rdata = b0
+b0
+           156.000ns : [gen] we = 1, addr = 06, wdata = 37, rdata = xx
+           160.000ns : [dvr] we = 0, addr = 01, wdata = c0, rdata = xx
+           166.000ns : [mon] we = 0, addr = 01, wdata = c0, rdata = c4
+           166.000ns : [scb] we = 0, addr = 01, wdata = c0, rdata = c4
+           166.000ns : Pass : wdata = c4, rdata = c4
+           166.000ns : [gen] we = 1, addr = 08, wdata = 20, rdata = xx
+           170.000ns : [dvr] we = 1, addr = 06, wdata = 37, rdata = xx
+           176.000ns : [mon] we = 1, addr = 06, wdata = 37, rdata = 37
+           176.000ns : [scb] we = 1, addr = 06, wdata = 37, rdata = 37
+37
+           176.000ns : [gen] we = 0, addr = 01, wdata = 83, rdata = xx
+           180.000ns : [dvr] we = 1, addr = 08, wdata = 20, rdata = xx
+           186.000ns : [mon] we = 1, addr = 08, wdata = 20, rdata = 20
+           186.000ns : [scb] we = 1, addr = 08, wdata = 20, rdata = 20
+20
+           186.000ns : [gen] we = 1, addr = 08, wdata = 55, rdata = xx
+           190.000ns : [dvr] we = 0, addr = 01, wdata = 83, rdata = xx
+           196.000ns : [mon] we = 0, addr = 01, wdata = 83, rdata = c4
+           196.000ns : [scb] we = 0, addr = 01, wdata = 83, rdata = c4
+           196.000ns : Pass : wdata = c4, rdata = c4
+           196.000ns : [gen] we = 1, addr = 03, wdata = e9, rdata = xx
+           200.000ns : [dvr] we = 1, addr = 08, wdata = 55, rdata = xx
+           206.000ns : [mon] we = 1, addr = 08, wdata = 55, rdata = 55
+           206.000ns : [scb] we = 1, addr = 08, wdata = 55, rdata = 55
+55
+           206.000ns : [gen] we = 1, addr = 06, wdata = 85, rdata = xx
+           210.000ns : [dvr] we = 1, addr = 03, wdata = e9, rdata = xx
+           216.000ns : [mon] we = 1, addr = 03, wdata = e9, rdata = e9
+           216.000ns : [scb] we = 1, addr = 03, wdata = e9, rdata = e9
+e9
+           216.000ns : [gen] we = 1, addr = 0a, wdata = 85, rdata = xx
+           220.000ns : [dvr] we = 1, addr = 06, wdata = 85, rdata = xx
+           226.000ns : [mon] we = 1, addr = 06, wdata = 85, rdata = 85
+           226.000ns : [scb] we = 1, addr = 06, wdata = 85, rdata = 85
+85
+           226.000ns : [gen] we = 1, addr = 02, wdata = f0, rdata = xx
+           230.000ns : [dvr] we = 1, addr = 0a, wdata = 85, rdata = xx
+           236.000ns : [mon] we = 1, addr = 0a, wdata = 85, rdata = 85
+           236.000ns : [scb] we = 1, addr = 0a, wdata = 85, rdata = 85
+85
+           236.000ns : [gen] we = 1, addr = 0f, wdata = e7, rdata = xx
+           240.000ns : [dvr] we = 1, addr = 02, wdata = f0, rdata = xx
+           246.000ns : [mon] we = 1, addr = 02, wdata = f0, rdata = f0
+           246.000ns : [scb] we = 1, addr = 02, wdata = f0, rdata = f0
+f0
+           246.000ns : [gen] we = 1, addr = 0b, wdata = 71, rdata = xx
+           250.000ns : [dvr] we = 1, addr = 0f, wdata = e7, rdata = xx
+           256.000ns : [mon] we = 1, addr = 0f, wdata = e7, rdata = e7
+           256.000ns : [scb] we = 1, addr = 0f, wdata = e7, rdata = e7
+e7
+           256.000ns : [gen] we = 0, addr = 09, wdata = f5, rdata = xx
+           260.000ns : [dvr] we = 1, addr = 0b, wdata = 71, rdata = xx
+           266.000ns : [mon] we = 1, addr = 0b, wdata = 71, rdata = 71
+           266.000ns : [scb] we = 1, addr = 0b, wdata = 71, rdata = 71
+71
+           266.000ns : [gen] we = 0, addr = 03, wdata = ce, rdata = xx
+           270.000ns : [dvr] we = 0, addr = 09, wdata = f5, rdata = xx
+           276.000ns : [mon] we = 0, addr = 09, wdata = f5, rdata = xx
+           276.000ns : [scb] we = 0, addr = 09, wdata = f5, rdata = xx
+           276.000ns : Pass : wdata = xx, rdata = xx
+           276.000ns : [gen] we = 1, addr = 0f, wdata = 61, rdata = xx
+           280.000ns : [dvr] we = 0, addr = 03, wdata = ce, rdata = xx
+           286.000ns : [mon] we = 0, addr = 03, wdata = ce, rdata = e9
+           286.000ns : [scb] we = 0, addr = 03, wdata = ce, rdata = e9
+           286.000ns : Pass : wdata = e9, rdata = e9
+           286.000ns : [gen] we = 0, addr = 0d, wdata = 50, rdata = xx
+           290.000ns : [dvr] we = 1, addr = 0f, wdata = 61, rdata = xx
+           296.000ns : [mon] we = 1, addr = 0f, wdata = 61, rdata = 61
+           296.000ns : [scb] we = 1, addr = 0f, wdata = 61, rdata = 61
+61
+           296.000ns : [gen] we = 0, addr = 0c, wdata = 2a, rdata = xx
+           300.000ns : [dvr] we = 0, addr = 0d, wdata = 50, rdata = xx
+           306.000ns : [mon] we = 0, addr = 0d, wdata = 50, rdata = d8
+           306.000ns : [scb] we = 0, addr = 0d, wdata = 50, rdata = d8
+           306.000ns : Pass : wdata = d8, rdata = d8
+           306.000ns : [gen] we = 1, addr = 02, wdata = 49, rdata = xx
+           310.000ns : [dvr] we = 0, addr = 0c, wdata = 2a, rdata = xx
+           316.000ns : [mon] we = 0, addr = 0c, wdata = 2a, rdata = xx
+           316.000ns : [scb] we = 0, addr = 0c, wdata = 2a, rdata = xx
+           316.000ns : Pass : wdata = xx, rdata = xx
+           316.000ns : [gen] we = 1, addr = 05, wdata = 41, rdata = xx
+           320.000ns : [dvr] we = 1, addr = 02, wdata = 49, rdata = xx
+           326.000ns : [mon] we = 1, addr = 02, wdata = 49, rdata = 49
+           326.000ns : [scb] we = 1, addr = 02, wdata = 49, rdata = 49
+49
+           326.000ns : [gen] we = 0, addr = 09, wdata = f9, rdata = xx
+           330.000ns : [dvr] we = 1, addr = 05, wdata = 41, rdata = xx
+           336.000ns : [mon] we = 1, addr = 05, wdata = 41, rdata = 41
+           336.000ns : [scb] we = 1, addr = 05, wdata = 41, rdata = 41
+41
+           336.000ns : [gen] we = 0, addr = 00, wdata = 1e, rdata = xx
+           340.000ns : [dvr] we = 0, addr = 09, wdata = f9, rdata = xx
+           346.000ns : [mon] we = 0, addr = 09, wdata = f9, rdata = xx
+           346.000ns : [scb] we = 0, addr = 09, wdata = f9, rdata = xx
+           346.000ns : Pass : wdata = xx, rdata = xx
+           346.000ns : [gen] we = 1, addr = 07, wdata = a3, rdata = xx
+           350.000ns : [dvr] we = 0, addr = 00, wdata = 1e, rdata = xx
+           356.000ns : [mon] we = 0, addr = 00, wdata = 1e, rdata = xx
+           356.000ns : [scb] we = 0, addr = 00, wdata = 1e, rdata = xx
+           356.000ns : Pass : wdata = xx, rdata = xx
+           356.000ns : [gen] we = 0, addr = 00, wdata = 78, rdata = xx
+           360.000ns : [dvr] we = 1, addr = 07, wdata = a3, rdata = xx
+           366.000ns : [mon] we = 1, addr = 07, wdata = a3, rdata = a3
+           366.000ns : [scb] we = 1, addr = 07, wdata = a3, rdata = a3
+a3
+           366.000ns : [gen] we = 1, addr = 01, wdata = b3, rdata = xx
+           370.000ns : [dvr] we = 0, addr = 00, wdata = 78, rdata = xx
+           376.000ns : [mon] we = 0, addr = 00, wdata = 78, rdata = xx
+           376.000ns : [scb] we = 0, addr = 00, wdata = 78, rdata = xx
+           376.000ns : Pass : wdata = xx, rdata = xx
+           376.000ns : [gen] we = 0, addr = 03, wdata = 0c, rdata = xx
+           380.000ns : [dvr] we = 1, addr = 01, wdata = b3, rdata = xx
+           386.000ns : [mon] we = 1, addr = 01, wdata = b3, rdata = b3
+           386.000ns : [scb] we = 1, addr = 01, wdata = b3, rdata = b3
+b3
+           386.000ns : [gen] we = 1, addr = 06, wdata = bb, rdata = xx
+           390.000ns : [dvr] we = 0, addr = 03, wdata = 0c, rdata = xx
+           396.000ns : [mon] we = 0, addr = 03, wdata = 0c, rdata = e9
+           396.000ns : [scb] we = 0, addr = 03, wdata = 0c, rdata = e9
+           396.000ns : Pass : wdata = e9, rdata = e9
+           396.000ns : [gen] we = 0, addr = 07, wdata = 48, rdata = xx
+           400.000ns : [dvr] we = 1, addr = 06, wdata = bb, rdata = xx
+           406.000ns : [mon] we = 1, addr = 06, wdata = bb, rdata = bb
+           406.000ns : [scb] we = 1, addr = 06, wdata = bb, rdata = bb
+bb
+           406.000ns : [gen] we = 1, addr = 0a, wdata = 20, rdata = xx
+           410.000ns : [dvr] we = 0, addr = 07, wdata = 48, rdata = xx
+           416.000ns : [mon] we = 0, addr = 07, wdata = 48, rdata = a3
+           416.000ns : [scb] we = 0, addr = 07, wdata = 48, rdata = a3
+           416.000ns : Pass : wdata = a3, rdata = a3
+           416.000ns : [gen] we = 0, addr = 05, wdata = 9f, rdata = xx
+           420.000ns : [dvr] we = 1, addr = 0a, wdata = 20, rdata = xx
+           426.000ns : [mon] we = 1, addr = 0a, wdata = 20, rdata = 20
+           426.000ns : [scb] we = 1, addr = 0a, wdata = 20, rdata = 20
+20
+           426.000ns : [gen] we = 1, addr = 09, wdata = ad, rdata = xx
+           430.000ns : [dvr] we = 0, addr = 05, wdata = 9f, rdata = xx
+           436.000ns : [mon] we = 0, addr = 05, wdata = 9f, rdata = 41
+           436.000ns : [scb] we = 0, addr = 05, wdata = 9f, rdata = 41
+           436.000ns : Pass : wdata = 41, rdata = 41
+           436.000ns : [gen] we = 0, addr = 0b, wdata = 73, rdata = xx
+           440.000ns : [dvr] we = 1, addr = 09, wdata = ad, rdata = xx
+           446.000ns : [mon] we = 1, addr = 09, wdata = ad, rdata = ad
+           446.000ns : [scb] we = 1, addr = 09, wdata = ad, rdata = ad
+ad
+           446.000ns : [gen] we = 0, addr = 05, wdata = e6, rdata = xx
+           450.000ns : [dvr] we = 0, addr = 0b, wdata = 73, rdata = xx
+           456.000ns : [mon] we = 0, addr = 0b, wdata = 73, rdata = 71
+           456.000ns : [scb] we = 0, addr = 0b, wdata = 73, rdata = 71
+           456.000ns : Pass : wdata = 71, rdata = 71
+           456.000ns : [gen] we = 1, addr = 07, wdata = d5, rdata = xx
+           460.000ns : [dvr] we = 0, addr = 05, wdata = e6, rdata = xx
+           466.000ns : [mon] we = 0, addr = 05, wdata = e6, rdata = 41
+           466.000ns : [scb] we = 0, addr = 05, wdata = e6, rdata = 41
+           466.000ns : Pass : wdata = 41, rdata = 41
+           466.000ns : [gen] we = 1, addr = 07, wdata = 80, rdata = xx
+           470.000ns : [dvr] we = 1, addr = 07, wdata = d5, rdata = xx
+           476.000ns : [mon] we = 1, addr = 07, wdata = d5, rdata = d5
+           476.000ns : [scb] we = 1, addr = 07, wdata = d5, rdata = d5
+d5
+           476.000ns : [gen] we = 0, addr = 02, wdata = f7, rdata = xx
+           480.000ns : [dvr] we = 1, addr = 07, wdata = 80, rdata = xx
+           486.000ns : [mon] we = 1, addr = 07, wdata = 80, rdata = 80
+           486.000ns : [scb] we = 1, addr = 07, wdata = 80, rdata = 80
+80
+           486.000ns : [gen] we = 0, addr = 01, wdata = 0d, rdata = xx
+           490.000ns : [dvr] we = 0, addr = 02, wdata = f7, rdata = xx
+           496.000ns : [mon] we = 0, addr = 02, wdata = f7, rdata = 49
+           496.000ns : [scb] we = 0, addr = 02, wdata = f7, rdata = 49
+           496.000ns : Pass : wdata = 49, rdata = 49
+           500.000ns : [dvr] we = 0, addr = 01, wdata = 0d, rdata = xx
+coveradge addr =          94
+_______________________________
+** sram verifi **
+*******************************
+** total try count =  22     **
+** pass count =  22          **
+** fail count =   0          **
+*******************************
+$stop called at time : 506 ns : File "D:/workplace/system_verilog/02.26_sram_sv/02.26_sram_sv.srcs/sim_1/new/tb_sram.sv" Line 216

@@ -56,31 +56,36 @@ typedef void (*funcp)(char *, char *);
 extern int main(int, char**);
 IKI_DLLESPEC extern void execute_32(char*, char *);
 IKI_DLLESPEC extern void execute_33(char*, char *);
-IKI_DLLESPEC extern void execute_39(char*, char *);
-IKI_DLLESPEC extern void execute_40(char*, char *);
-IKI_DLLESPEC extern void execute_41(char*, char *);
-IKI_DLLESPEC extern void vlog_simple_process_execute_0_fast_for_reg(char*, char*, char*);
+IKI_DLLESPEC extern void execute_42(char*, char *);
 IKI_DLLESPEC extern void execute_43(char*, char *);
+IKI_DLLESPEC extern void execute_44(char*, char *);
+IKI_DLLESPEC extern void vlog_simple_process_execute_0_fast_for_reg(char*, char*, char*);
+IKI_DLLESPEC extern void execute_46(char*, char *);
+IKI_DLLESPEC extern void svlog_sampling_process_execute(char*, char*, char*);
+IKI_DLLESPEC extern void sequence_expr_m_2714a950_f06a01bc_1(char*, char *);
+IKI_DLLESPEC extern void sequence_expr_m_2714a950_f06a01bc_2(char*, char *);
+IKI_DLLESPEC extern void vlog_sv_sequence_execute_0 (char*, char*, char*);
+IKI_DLLESPEC extern void assertion_action_m_2714a950_f06a01bc_1(char*, char *);
 IKI_DLLESPEC extern void execute_31(char*, char *);
 IKI_DLLESPEC extern void execute_35(char*, char *);
 IKI_DLLESPEC extern void execute_36(char*, char *);
 IKI_DLLESPEC extern void execute_37(char*, char *);
 IKI_DLLESPEC extern void execute_38(char*, char *);
-IKI_DLLESPEC extern void execute_44(char*, char *);
-IKI_DLLESPEC extern void execute_45(char*, char *);
-IKI_DLLESPEC extern void execute_46(char*, char *);
 IKI_DLLESPEC extern void execute_47(char*, char *);
 IKI_DLLESPEC extern void execute_48(char*, char *);
 IKI_DLLESPEC extern void execute_49(char*, char *);
+IKI_DLLESPEC extern void execute_50(char*, char *);
+IKI_DLLESPEC extern void execute_51(char*, char *);
+IKI_DLLESPEC extern void execute_52(char*, char *);
 IKI_DLLESPEC extern void vlog_transfunc_eventcallback(char*, char*, unsigned, unsigned, unsigned, char *);
 IKI_DLLESPEC extern void transaction_0(char*, char*, unsigned, unsigned, unsigned);
 IKI_DLLESPEC extern void transaction_49(char*, char*, unsigned, unsigned, unsigned);
-funcp funcTab[21] = {(funcp)execute_32, (funcp)execute_33, (funcp)execute_39, (funcp)execute_40, (funcp)execute_41, (funcp)vlog_simple_process_execute_0_fast_for_reg, (funcp)execute_43, (funcp)execute_31, (funcp)execute_35, (funcp)execute_36, (funcp)execute_37, (funcp)execute_38, (funcp)execute_44, (funcp)execute_45, (funcp)execute_46, (funcp)execute_47, (funcp)execute_48, (funcp)execute_49, (funcp)vlog_transfunc_eventcallback, (funcp)transaction_0, (funcp)transaction_49};
-const int NumRelocateId= 21;
+funcp funcTab[26] = {(funcp)execute_32, (funcp)execute_33, (funcp)execute_42, (funcp)execute_43, (funcp)execute_44, (funcp)vlog_simple_process_execute_0_fast_for_reg, (funcp)execute_46, (funcp)svlog_sampling_process_execute, (funcp)sequence_expr_m_2714a950_f06a01bc_1, (funcp)sequence_expr_m_2714a950_f06a01bc_2, (funcp)vlog_sv_sequence_execute_0 , (funcp)assertion_action_m_2714a950_f06a01bc_1, (funcp)execute_31, (funcp)execute_35, (funcp)execute_36, (funcp)execute_37, (funcp)execute_38, (funcp)execute_47, (funcp)execute_48, (funcp)execute_49, (funcp)execute_50, (funcp)execute_51, (funcp)execute_52, (funcp)vlog_transfunc_eventcallback, (funcp)transaction_0, (funcp)transaction_49};
+const int NumRelocateId= 26;
 
 void relocate(char *dp)
 {
-	iki_relocate(dp, "xsim.dir/tb_register_8bit_behav/xsim.reloc",  (void **)funcTab, 21);
+	iki_relocate(dp, "xsim.dir/tb_register_8bit_behav/xsim.reloc",  (void **)funcTab, 26);
 
 	/*Populate the transaction function pointer field in the whole net structure */
 }
@@ -102,8 +107,8 @@ iki_register_root_pointers(1, 5808, 11,0,0) ;
 
 }
 #include "iki_bridge.h"
-void subprog_m_def54173_2250037c_2() ;
-static char* ng00[] = {(void *)subprog_m_def54173_2250037c_2};
+void subprog_m_dd0aadeb_2250037c_2() ;
+static char* ng00[] = {(void *)subprog_m_dd0aadeb_2250037c_2};
 void relocate(char *);
 
 void sensitize(char *);

@@ -458,4 +458,53 @@ Time resolution is 1 ps
            910.000ns : [gen] a = 0000007f, b = abe474a5, mode = 0, sum = xxxxxxxx,carry = x
            910.000ns : [drv] a = 0000007f, b = abe474a5, mode = 0, sum = xxxxxxxx,carry = x
            920.000ns : [mon] a = 0000007f, b = abe474a5, mode = 0, sum = abe47524,carry = 0
-           920.000ns : [scb] a = 0000007f, b = abe
+           920.000ns : [scb] a = 0000007f, b = abe474a5, mode = 0, sum = abe47524,carry = 0
+[Pass] : a =        127, b = 2883876005, mode = 0, sum = 2883876132,carry = 0
+           920.000ns : [gen] a = 000003ff, b = 8f37c68d, mode = 1, sum = xxxxxxxx,carry = x
+           920.000ns : [drv] a = 000003ff, b = 8f37c68d, mode = 1, sum = xxxxxxxx,carry = x
+           930.000ns : [mon] a = 000003ff, b = 8f37c68d, mode = 1, sum = 70c83d72,carry = 1
+           930.000ns : [scb] a = 000003ff, b = 8f37c68d, mode = 1, sum = 70c83d72,carry = 1
+[Pass] : a =       1023, b = 2402797197, mode = 1, sum = 1892171122,carry = 1
+           930.000ns : [gen] a = 0000ffff, b = f50f2461, mode = 1, sum = xxxxxxxx,carry = x
+           930.000ns : [drv] a = 0000ffff, b = f50f2461, mode = 1, sum = xxxxxxxx,carry = x
+           940.000ns : [mon] a = 0000ffff, b = f50f2461, mode = 1, sum = 0af1db9e,carry = 1
+           940.000ns : [scb] a = 0000ffff, b = f50f2461, mode = 1, sum = 0af1db9e,carry = 1
+[Pass] : a =      65535, b = 4111410273, mode = 1, sum =  183622558,carry = 1
+           940.000ns : [gen] a = 000003ff, b = 3fb73dfc, mode = 1, sum = xxxxxxxx,carry = x
+           940.000ns : [drv] a = 000003ff, b = 3fb73dfc, mode = 1, sum = xxxxxxxx,carry = x
+           950.000ns : [mon] a = 000003ff, b = 3fb73dfc, mode = 1, sum = c048c603,carry = 1
+           950.000ns : [scb] a = 000003ff, b = 3fb73dfc, mode = 1, sum = c048c603,carry = 1
+[Pass] : a =       1023, b = 1068973564, mode = 1, sum = 3225994755,carry = 1
+           950.000ns : [gen] a = 0000001f, b = 98446cee, mode = 1, sum = xxxxxxxx,carry = x
+           950.000ns : [drv] a = 0000001f, b = 98446cee, mode = 1, sum = xxxxxxxx,carry = x
+           960.000ns : [mon] a = 0000001f, b = 98446cee, mode = 1, sum = 67bb9331,carry = 1
+           960.000ns : [scb] a = 0000001f, b = 98446cee, mode = 1, sum = 67bb9331,carry = 1
+[Pass] : a =         31, b = 2554621166, mode = 1, sum = 1740346161,carry = 1
+           960.000ns : [gen] a = 0000007f, b = 3705131b, mode = 1, sum = xxxxxxxx,carry = x
+           960.000ns : [drv] a = 0000007f, b = 3705131b, mode = 1, sum = xxxxxxxx,carry = x
+           970.000ns : [mon] a = 0000007f, b = 3705131b, mode = 1, sum = c8faed64,carry = 1
+           970.000ns : [scb] a = 0000007f, b = 3705131b, mode = 1, sum = c8faed64,carry = 1
+[Pass] : a =        127, b =  923079451, mode = 1, sum = 3371887972,carry = 1
+           970.000ns : [gen] a = 0000000f, b = 9e9e669c, mode = 0, sum = xxxxxxxx,carry = x
+           970.000ns : [drv] a = 0000000f, b = 9e9e669c, mode = 0, sum = xxxxxxxx,carry = x
+           980.000ns : [mon] a = 0000000f, b = 9e9e669c, mode = 0, sum = 9e9e66ab,carry = 0
+           980.000ns : [scb] a = 0000000f, b = 9e9e669c, mode = 0, sum = 9e9e66ab,carry = 0
+[Pass] : a =         15, b = 2661181084, mode = 0, sum = 2661181099,carry = 0
+           980.000ns : [gen] a = 0000003f, b = 07428e6c, mode = 0, sum = xxxxxxxx,carry = x
+           980.000ns : [drv] a = 0000003f, b = 07428e6c, mode = 0, sum = xxxxxxxx,carry = x
+           990.000ns : [mon] a = 0000003f, b = 07428e6c, mode = 0, sum = 07428eab,carry = 0
+           990.000ns : [scb] a = 0000003f, b = 07428e6c, mode = 0, sum = 07428eab,carry = 0
+[Pass] : a =         63, b =  121802348, mode = 0, sum =  121802411,carry = 0
+           990.000ns : [gen] a = 000000ff, b = dea6b996, mode = 1, sum = xxxxxxxx,carry = x
+           990.000ns : [drv] a = 000000ff, b = dea6b996, mode = 1, sum = xxxxxxxx,carry = x
+          1000.000ns : [mon] a = 000000ff, b = dea6b996, mode = 1, sum = 21594769,carry = 1
+          1000.000ns : [scb] a = 000000ff, b = dea6b996, mode = 1, sum = 21594769,carry = 1
+[Pass] : a =        255, b = 3735468438, mode = 1, sum =  559499113,carry = 1
+______________________________
+** 32bit Adder Verification **
+------------------------------
+**  Total test cnt = 100  **
+**  Total pass cnt = 100  **
+**  Total fail cnt =   0  **
+------------------------------
+$stop called at time : 1020 ns : File "D:/workplace/system_verilog/02.24_adder_sv_verification/02.24_adder_sv_verification.srcs/sim_1/new/tb_adder_verification.sv" Line 232
