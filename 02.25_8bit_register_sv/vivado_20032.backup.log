@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Feb 25 20:52:19 2026
+# Process ID: 20032
+# Current directory: D:/Ondevice/system verilog/system_verilog/02.25_8bit_register_sv
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23776 D:\Ondevice\system verilog\system_verilog\02.25_8bit_register_sv\02.25_8bit_register_sv.xpr
+# Log file: D:/Ondevice/system verilog/system_verilog/02.25_8bit_register_sv/vivado.log
+# Journal file: D:/Ondevice/system verilog/system_verilog/02.25_8bit_register_sv\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Ondevice/system verilog/system_verilog/02.25_8bit_register_sv/02.25_8bit_register_sv.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/workplace/system_verilog/02.25_8bit_register_sv' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'D:/Ondevice/system verilog/system_verilog/02.25_8bit_register_sv/02.25_8bit_register_sv.gen/sources_1', nor could it be found using path 'D:/workplace/system_verilog/02.25_8bit_register_sv/02.25_8bit_register_sv.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 1006.039 ; gain = 0.000
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {D:/Ondevice/system verilog/system_verilog/02.25_8bit_register_sv/02.25_8bit_register_sv.srcs/sim_1/new/tb_fork_join.sv} w ]
+add_files -fileset sim_1 {{D:/Ondevice/system verilog/system_verilog/02.25_8bit_register_sv/02.25_8bit_register_sv.srcs/sim_1/new/tb_fork_join.sv}}
+update_compile_order -fileset sim_1

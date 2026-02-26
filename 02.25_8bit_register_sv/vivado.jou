@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Feb 25 21:00:45 2026
+# Process ID: 1164
+# Current directory: D:/Ondevice/system verilog/system_verilog/02.25_8bit_register_sv
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2340 D:\Ondevice\system verilog\system_verilog\02.25_8bit_register_sv\02.25_8bit_register_sv.xpr
+# Log file: D:/Ondevice/system verilog/system_verilog/02.25_8bit_register_sv/vivado.log
+# Journal file: D:/Ondevice/system verilog/system_verilog/02.25_8bit_register_sv\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Ondevice/system verilog/system_verilog/02.25_8bit_register_sv/02.25_8bit_register_sv.xpr}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_fork_join [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_fork_join.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run all
+relaunch_sim
+close_sim
