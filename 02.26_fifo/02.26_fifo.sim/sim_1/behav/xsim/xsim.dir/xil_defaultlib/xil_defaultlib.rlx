@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/workplace/Ondevice/0211_fifo/0211_fifo.srcs/sim_1/new/tb_fifo.v,1772161228,verilog,,,,tb_fifo_1,,uvm,,,,,,
+D:/workplace/system_verilog/02.26_fifo/02.26_fifo.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/workplace/system_verilog/02.26_fifo/02.26_fifo.srcs/sim_1/new/tb_fifo.sv,1772173161,systemVerilog,,,,fifo_interface;tb_fifo,,uvm,,,,,,
+D:/workplace/system_verilog/02.26_fifo/02.26_fifo.srcs/sources_1/new/fifo.sv,1772171756,systemVerilog,D:/workplace/system_verilog/02.26_fifo/02.26_fifo.srcs/sim_1/new/tb_fifo.sv,D:/workplace/system_verilog/02.26_fifo/02.26_fifo.srcs/sim_1/new/tb_fifo.sv,,$unit_fifo_sv;control_unit;fifo;register_file,,uvm,,,,,,

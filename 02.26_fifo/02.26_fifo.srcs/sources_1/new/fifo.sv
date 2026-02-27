@@ -47,9 +47,9 @@ module register_file (
     output logic [7:0] rdata
 );
 
-    reg [7:0] register_file[0:15];
+    logic [7:0] register_file[0:15];
 
-    always @(posedge clk) begin
+    always_ff @(posedge clk) begin
         if (we) begin
             register_file[waddr] <= wdata;
         end
@@ -70,34 +70,31 @@ module control_unit (
     output logic       empty
 );
 
-    reg [1:0] next_state, current_state;
-    reg [3:0] wptr_reg, wptr_next, rptr_reg, rptr_next;
-    reg full_reg, full_next, empty_reg, empty_next;
+
+    logic [3:0] wptr_reg, wptr_next, rptr_reg, rptr_next;
+    logic full_reg, full_next, empty_reg, empty_next;
 
     assign wptr  = wptr_reg;
     assign rptr  = rptr_reg;
     assign full  = full_reg;
     assign empty = empty_reg;
 
-    always @(posedge clk, posedge reset) begin
+    always_ff @(posedge clk, posedge reset) begin
         if (reset) begin
-            current_state <= 2'b00;
-            wptr_reg      <= 0;
-            rptr_reg      <= 0;
-            full_reg      <= 0;
-            empty_reg     <= 0;
+            wptr_reg  <= 0;
+            rptr_reg  <= 0;
+            full_reg  <= 0;
+            empty_reg <= 1;
         end else begin
-            current_state <= next_state;
-            wptr_reg      <= wptr_next;
-            rptr_reg      <= rptr_next;
-            full_reg      <= full_next;
-            empty_reg     <= empty_next;
+            wptr_reg  <= wptr_next;
+            rptr_reg  <= rptr_next;
+            full_reg  <= full_next;
+            empty_reg <= empty_next;
         end
 
     end
 
-    always @(*) begin
-        next_state = current_state;
+    always_comb begin
         wptr_next  = wptr_reg;
         rptr_next  = rptr_reg;
         full_next  = full_reg;
@@ -112,10 +109,11 @@ module control_unit (
                 if (!full) begin
                     wptr_next  = wptr_reg + 1;
                     empty_next = 1'b0;
-                    if (wptr_next == rptr_reg) begin
-                        full_next = 1'b1;
-                    end
                 end
+                if (wptr_next == rptr_reg) begin
+                    full_next = 1'b1;
+                end
+
             end
 
             //pop
@@ -123,10 +121,11 @@ module control_unit (
                 if (!empty) begin
                     rptr_next = rptr_reg + 1;
                     full_next = 1'b0;
-                    if (rptr_next == wptr_reg) begin
-                        empty_next = 1'b1;
-                    end
                 end
+                if (rptr_next == wptr_reg) begin
+                    empty_next = 1'b1;
+                end
+
             end
 
             //push,pop
@@ -138,8 +137,8 @@ module control_unit (
                     wptr_next  = wptr_reg + 1;
                     empty_next = 1'b0;
                 end else begin
-                    wptr_next = wptr_reg;
-                    rptr_next = rptr_reg;
+                    wptr_next = wptr_reg + 1;
+                    rptr_next = rptr_reg + 1;
                 end
 
             end

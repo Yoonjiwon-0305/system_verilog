@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Feb 26 21:31:00 2026
+# Process ID: 19048
+# Current directory: D:/Ondevice/system verilog/system_verilog/02.26_fifo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15444 D:\Ondevice\system verilog\system_verilog\02.26_fifo\02.26_fifo.xpr
+# Log file: D:/Ondevice/system verilog/system_verilog/02.26_fifo/vivado.log
+# Journal file: D:/Ondevice/system verilog/system_verilog/02.26_fifo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Ondevice/system verilog/system_verilog/02.26_fifo/02.26_fifo.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+refresh_design
+refresh_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_fifo [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+refresh_design

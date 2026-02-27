@@ -1,7 +1,8 @@
 `timescale 1ns / 1ps
 
-interface fifo_interface ();
-    logic       clk;
+interface fifo_interface (
+    input clk
+);
     logic       reset;
     logic       push;
     logic       pop;
@@ -16,11 +17,17 @@ class transaction;
     rand bit [7:0] wdata;
     rand bit       push;
     rand bit       pop;
+
     logic    [7:0] rdata;
+    logic          reset;
+    logic          full;
+    logic          empty;
+
 
     function void display(string name);  // 리턴 타입 없는 함수
-        $display("%t : [%s] push = %d, pop = %d, wdata = %2h, rdata = %2h",
-                 $time, name, push, pop, wdata, rdata);
+        $display(
+            "%t : [%s] push = %d, wdata = %2h, full = %d, pop = %d, rdata = %2h, empty = %d",
+            $time, name, push, wdata, full, pop, rdata, empty);
 
     endfunction  // 시간 성분 없으니까 task가 아닌 function 사용한 방법
 
@@ -64,16 +71,40 @@ class driver;
         this.fifo_if = fifo_if;
     endfunction  //new()
 
+    task preset();
+        fifo_if.reset = 1;
+        fifo_if.wdata = 0;
+        fifo_if.push  = 0;
+        fifo_if.pop   = 0;
+        @(negedge fifo_if.clk);
+        @(negedge fifo_if.clk);
+        fifo_if.reset = 0;
+        @(negedge fifo_if.clk);
+        //tr.display("mon_preset");
+        //add assertion
+    endtask  //preset
+
+    task push();
+        fifo_if.push  = tr.push;
+        fifo_if.wdata = tr.wdata;
+        fifo_if.pop   = tr.pop;
+    endtask  // push()
+
+    task pop();
+        fifo_if.pop   = tr.pop;
+        fifo_if.wdata = tr.wdata;
+        fifo_if.push  = tr.push;
+    endtask  // pop()
+
     task run();
-        fifo_if.wdata <= 0;
-        fifo_if.push  <= 0;
-        fifo_if.pop   <= 0;
         forever begin
             gen2drv_mbox.get(tr);
-            @(negedge fifo_if.clk);
-            fifo_if.wdata = tr.wdata;
-            fifo_if.push  = tr.push;
-            fifo_if.pop   = tr.pop;
+            @(posedge fifo_if.clk);
+            #1;
+            if (tr.push) push();
+            else fifo_if.push = 0;
+            if (tr.pop) pop();
+            else fifo_if.pop = 0;
             tr.display("drv");
         end
     endtask  //
@@ -95,17 +126,19 @@ class monitor;
 
     task run();
         forever begin
-            @(posedge fifo_if.clk);
-            if (fifo_if.push || fifo_if.pop) begin  // 하나라도 1이면 
-                tr = new();
-                tr.push = fifo_if.push;
-                tr.pop = fifo_if.pop;
-                tr.wdata = fifo_if.wdata;
-                tr.rdata = fifo_if.rdata;
-                mon2scb_mbox.put(tr);
-            end
+            tr = new;
+            @(negedge fifo_if.clk);
+            tr.push  = fifo_if.push;
+            tr.pop   = fifo_if.pop;
+            tr.wdata = fifo_if.wdata;
+            tr.rdata = fifo_if.rdata;
+            tr.full  = fifo_if.full;
+            tr.empty = fifo_if.empty;
+            mon2scb_mbox.put(tr);
+            tr.display("mon");
+
         end
-    endtask  //
+    endtask
 
 endclass  //monitor
 
@@ -116,13 +149,36 @@ class scoreboard;
     event gen_next_ev;
     int pass_cnt = 0, fail_cnt = 0, try_cnt = 0;
 
+    logic [7:0] queue[$:16];
+    logic [7:0] compare_data;
     function new(mailbox#(transaction) mon2scb_mbox, event gen_next_ev);
         this.mon2scb_mbox = mon2scb_mbox;
         this.gen_next_ev  = gen_next_ev;
     endfunction  //new()
 
     task run();
-
+        forever begin
+            mon2scb_mbox.get(tr);
+            tr.display("scb");
+            //push
+            if (tr.push && !tr.full) begin  //꽉 안 채워진 상황
+                queue.push_front(tr.wdata);
+            end
+            //pop
+            if (tr.pop && !tr.empty) begin
+                try_cnt++;
+                compare_data = queue.pop_back();
+                if (tr.rdata === compare_data) begin
+                    $display("PASS");
+                    pass_cnt++;
+                end else begin
+                    $display(" FAIL: Exp = %h, COM = %h", compare_data,
+                             tr.rdata);
+                    fail_cnt++;
+                end
+            end
+            ->gen_next_ev;
+        end
     endtask  //
 endclass  //scoreboard
 
@@ -148,13 +204,13 @@ class environment;
     endfunction  //new()
 
     task run();
+        drv.preset();
         fork
-            gen.run(10);
+            gen.run(100);
             mon.run();
             drv.run();
             scb.run();
         join_any
-
         #10;
         $display("_______________________________");
         $display("** fifo verifi **");
@@ -171,14 +227,13 @@ endclass  //environment
 module tb_fifo ();
 
     logic clk = 0;
-    assign fifo_if.clk = clk;
 
-    fifo_interface fifo_if ();
+    fifo_interface fifo_if (clk);
 
     environment env;
 
     fifo dut (
-        .clk  (fifo_if.clk),
+        .clk  (clk),
         .reset(fifo_if.reset),
         .push (fifo_if.push),
         .pop  (fifo_if.pop),
