@@ -1,0 +1,11 @@
+# Vivado / Simulation files
+*.log
+*.jou
+*.str
+*.pb
+*.vcd
+*.wdb
+*.rtd
+xsim.dir/
+.Xil/
+**/*.backup.log
