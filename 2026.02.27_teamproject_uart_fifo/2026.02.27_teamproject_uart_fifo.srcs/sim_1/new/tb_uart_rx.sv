@@ -194,6 +194,6 @@ module tb_uart_rx ();
     initial begin
         $timeformat(-6, 3, "us");
         env = new(rx_if);
-        env.run(10);
+        env.run(256);
     end
 endmodule
